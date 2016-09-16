@@ -1,0 +1,4029 @@
+{
+  "meta": {
+    "code": 200
+  },
+  "data": [
+    {
+      "localidade": {
+        "idLocalidade": "161",
+        "idCentro": "CEN10",
+        "nome": "UEMA Campus Santa Inês",
+        "sigla": "UEMA",
+        "marcador": "/img/markers/leste.png",
+        "latitude": -3.6738684429301,
+        "longitude": -45.383687317371,
+        "vertices": [
+          {
+            "latitude": -3.6739219769859,
+            "longitude": -45.383958220482
+          },
+          {
+            "latitude": -3.6734080510578,
+            "longitude": -45.383580029011
+          },
+          {
+            "latitude": -3.6742324737573,
+            "longitude": -45.383416414261
+          },
+          {
+            "latitude": -3.6743288348023,
+            "longitude": -45.383861660957
+          },
+          {
+            "latitude": -3.6739219769859,
+            "longitude": -45.383958220482
+          }
+        ]
+      },
+      "areas": [
+        {
+          "idArea": "50",
+          "idTipoArea": "1",
+          "endereco": "Rua 04, casa 54, Conjunto da Vale, Bairro: Militar, CEP. 65.300-000",
+          "valor": "3853.15",
+          "proprio": "1",
+          "doacao": "Vale S.A.",
+          "documento": "Escritura Pública de Doação de 25 de outubro de 2013",
+          "publicacao": "",
+          "observacao": "",
+          "arquivos": [
+            {
+              "idArquivo": "8",
+              "idTipoArquivo": "1",
+              "idArea": "50",
+              "descricao": null,
+              "path": "/areaFiles/bc7e3a4ca0b4a89ff89f22e49ee2b380.jpg"
+            }
+          ]
+        },
+        {
+          "idArea": "51",
+          "idTipoArea": "2",
+          "endereco": "Rua 04, casa 54, Conjunto da Vale, Bairro: Militar, CEP. 65.300-000",
+          "valor": "983.37",
+          "proprio": "1",
+          "doacao": "Vale S.A.",
+          "documento": "Escritura Pública de Doação de 25 de outubro de 2013",
+          "publicacao": "",
+          "observacao": "",
+          "arquivos": []
+        }
+      ],
+      "cursos": [
+        {
+          "idCurso": "35",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "Letras Licenciatura (Língua Portuguesa, Língua Inglesa e respectivas Literaturas)"
+        },
+        {
+          "idCurso": "45",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "Pedagogia Licenciatura"
+        },
+        {
+          "idCurso": "20",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "Enfermagem Bacharelado"
+        },
+        {
+          "idCurso": "46",
+          "idTipoCurso": "2",
+          "tipoCurso": "Distância",
+          "descricao": "Pedagogia Licenciatura"
+        },
+        {
+          "idCurso": "28",
+          "idTipoCurso": "2",
+          "tipoCurso": "Distância",
+          "descricao": "Filosofia Licenciatura"
+        },
+        {
+          "idCurso": "10",
+          "idTipoCurso": "2",
+          "tipoCurso": "Distância",
+          "descricao": "Administração Pública Bacharelado"
+        }
+      ],
+      "gestores": [
+        {
+          "idGestor": "27",
+          "idTipoGestor": "1",
+          "tipoGestor": "Diretor de Centro",
+          "nome": "Josimar Carvalho Porto",
+          "telefones": [
+            "(98) 9-9112-8758"
+          ],
+          "email": "josimarporto@hotmail.com"
+        }
+      ]
+    },
+    {
+      "localidade": {
+        "idLocalidade": "162",
+        "idCentro": "CEN21",
+        "nome": "UEMA Campus Pinheiro",
+        "sigla": "UEMA",
+        "marcador": "/img/markers/norte.png",
+        "latitude": -2.5199781562878,
+        "longitude": -45.08700683713,
+        "vertices": [
+          {
+            "latitude": -2.5202487974454,
+            "longitude": -45.08729249239
+          },
+          {
+            "latitude": -2.5196110490069,
+            "longitude": -45.086866021156
+          },
+          {
+            "latitude": -2.5197048355616,
+            "longitude": -45.08672118187
+          },
+          {
+            "latitude": -2.5203452635686,
+            "longitude": -45.087147653103
+          },
+          {
+            "latitude": -2.5202487974454,
+            "longitude": -45.08729249239
+          }
+        ]
+      },
+      "areas": [
+        {
+          "idArea": "45",
+          "idTipoArea": "2",
+          "endereco": "Rua Maria Pinheiro Paiva S/N Bairro: Antigo Aeroporto. CEP. 65200-000",
+          "valor": "1",
+          "proprio": "0",
+          "doacao": "SEDUC-MA",
+          "documento": "Termo de Cessão de Uso de Bem Imóvel nº --/2014.Duração: 20 anos",
+          "publicacao": "",
+          "observacao": "",
+          "arquivos": [
+            {
+              "idArquivo": "5",
+              "idTipoArquivo": "1",
+              "idArea": "45",
+              "descricao": null,
+              "path": "/areaFiles/960c8d8ea5a89c1925a139e74a8de65a.jpg"
+            }
+          ]
+        },
+        {
+          "idArea": "46",
+          "idTipoArea": "1",
+          "endereco": "Rua Maria Pinheiro Paiva S/N Bairro: Antigo Aeroporto. CEP. 65200-000",
+          "valor": "1",
+          "proprio": "0",
+          "doacao": "-",
+          "documento": "-",
+          "publicacao": "-",
+          "observacao": "",
+          "arquivos": []
+        }
+      ],
+      "cursos": [
+        {
+          "idCurso": "13",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "Ciências Biológicas Licenciatura"
+        },
+        {
+          "idCurso": "56",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "Tecnologia em Segurança do Trabalho"
+        },
+        {
+          "idCurso": "28",
+          "idTipoCurso": "2",
+          "tipoCurso": "Distância",
+          "descricao": "Filosofia Licenciatura"
+        },
+        {
+          "idCurso": "46",
+          "idTipoCurso": "2",
+          "tipoCurso": "Distância",
+          "descricao": "Pedagogia Licenciatura"
+        }
+      ],
+      "gestores": [
+        {
+          "idGestor": "47",
+          "idTipoGestor": "1",
+          "tipoGestor": "Diretor de Centro",
+          "nome": "Gilberto Matos Aroucha",
+          "telefones": [
+            "(98) 9-3381-6091"
+          ],
+          "email": null
+        }
+      ]
+    },
+    {
+      "localidade": {
+        "idLocalidade": "163",
+        "idCentro": "CEN20",
+        "nome": "UEMA Campus Zé Doca",
+        "sigla": "UEMA",
+        "marcador": "/img/markers/leste.png",
+        "latitude": -3.2733533384312,
+        "longitude": -45.653355270624,
+        "vertices": [
+          {
+            "latitude": -3.2735836320638,
+            "longitude": -45.653611421585
+          },
+          {
+            "latitude": -3.2733827946195,
+            "longitude": -45.653643608093
+          },
+          {
+            "latitude": -3.2733345936269,
+            "longitude": -45.653313696384
+          },
+          {
+            "latitude": -3.2731578566342,
+            "longitude": -45.653345882893
+          },
+          {
+            "latitude": -3.2731230447986,
+            "longitude": -45.653125941753
+          },
+          {
+            "latitude": -3.273524719751,
+            "longitude": -45.653066933155
+          },
+          {
+            "latitude": -3.2735836320638,
+            "longitude": -45.653611421585
+          }
+        ]
+      },
+      "areas": [
+        {
+          "idArea": "47",
+          "idTipoArea": "2",
+          "endereco": "Rua Rio Branco, S/N, Centro",
+          "valor": "627",
+          "proprio": "0",
+          "doacao": "SEDUC/MA",
+          "documento": "Termo de Cessão de Uso de Bem Imóvel Nº 002/2015",
+          "publicacao": "Publicação de Terceiros, 04 de janeiro de 2016, pg. 09",
+          "observacao": "",
+          "arquivos": [
+            {
+              "idArquivo": "6",
+              "idTipoArquivo": "1",
+              "idArea": "47",
+              "descricao": null,
+              "path": "/areaFiles/8e69ee12068180f69ccc6c719138e4c7.jpg"
+            }
+          ]
+        },
+        {
+          "idArea": "53",
+          "idTipoArea": "1",
+          "endereco": "Rua Rio Branco, S/N, Centro",
+          "valor": "1",
+          "proprio": "0",
+          "doacao": "",
+          "documento": "",
+          "publicacao": "",
+          "observacao": "",
+          "arquivos": []
+        }
+      ],
+      "cursos": [
+        {
+          "idCurso": "33",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "Letras Licenciatura (Língua Portuguesa e Literaturas de Língua Portuguesa)"
+        },
+        {
+          "idCurso": "46",
+          "idTipoCurso": "2",
+          "tipoCurso": "Distância",
+          "descricao": "Pedagogia Licenciatura"
+        },
+        {
+          "idCurso": "28",
+          "idTipoCurso": "2",
+          "tipoCurso": "Distância",
+          "descricao": "Filosofia Licenciatura"
+        },
+        {
+          "idCurso": "10",
+          "idTipoCurso": "2",
+          "tipoCurso": "Distância",
+          "descricao": "Administração Pública Bacharelado"
+        },
+        {
+          "idCurso": "55",
+          "idTipoCurso": "2",
+          "tipoCurso": "Distância",
+          "descricao": "Tecnologia em Gestão Comercial"
+        }
+      ],
+      "gestores": [
+        {
+          "idGestor": "50",
+          "idTipoGestor": "1",
+          "tipoGestor": "Diretor de Centro",
+          "nome": "Sérgio Roberto Ferreira Nunes",
+          "telefones": [
+            "(99) 3655-3453"
+          ],
+          "email": null
+        }
+      ]
+    },
+    {
+      "localidade": {
+        "idLocalidade": "164",
+        "idCentro": "CEN22",
+        "nome": "UEMA Campus Itapecuru Mirim",
+        "sigla": "UEMA",
+        "marcador": "/img/markers/norte.png",
+        "latitude": -3.3964577095825,
+        "longitude": -44.35503333807,
+        "vertices": [
+          {
+            "latitude": -3.3966384408108,
+            "longitude": -44.355556368828
+          },
+          {
+            "latitude": -3.3969972253681,
+            "longitude": -44.355049431324
+          },
+          {
+            "latitude": -3.3962528811379,
+            "longitude": -44.354510307312
+          },
+          {
+            "latitude": -3.395918193797,
+            "longitude": -44.354968965054
+          },
+          {
+            "latitude": -3.3966384408108,
+            "longitude": -44.355556368828
+          }
+        ]
+      },
+      "areas": [
+        {
+          "idArea": "49",
+          "idTipoArea": "2",
+          "endereco": "Avenida Brasil com Avenida Maranhão",
+          "valor": "1",
+          "proprio": "0",
+          "doacao": "SEDUC/MA",
+          "documento": "Termo de Cessão de Uso de Bem Imóvel Nº 003/2015",
+          "publicacao": "Publicação de Terceiros - 04 de janeiro de 2016",
+          "observacao": "Futuras Instalações",
+          "arquivos": []
+        },
+        {
+          "idArea": "115",
+          "idTipoArea": "1",
+          "endereco": "Avenida Brasil com Avenida Maranhão",
+          "valor": "1",
+          "proprio": "0",
+          "doacao": "",
+          "documento": "",
+          "publicacao": "",
+          "observacao": "",
+          "arquivos": []
+        }
+      ],
+      "cursos": [],
+      "gestores": [
+        {
+          "idGestor": "40",
+          "idTipoGestor": "1",
+          "tipoGestor": "Diretor de Centro",
+          "nome": "Conceição de Maria Neiva Pacheco",
+          "telefones": [
+            "(98) 3463-2592"
+          ],
+          "email": "uemaitapecuru@gmail.com"
+        }
+      ]
+    },
+    {
+      "localidade": {
+        "idLocalidade": "166",
+        "idCentro": "CEN22",
+        "nome": "UEMA Campus Itapecuru Mirim",
+        "sigla": "UEMA",
+        "marcador": "/img/markers/norte.png",
+        "latitude": -3.3970962926986,
+        "longitude": -44.352672994137,
+        "vertices": [
+          {
+            "latitude": -3.3968820930247,
+            "longitude": -44.35255497694
+          },
+          {
+            "latitude": -3.3970025803605,
+            "longitude": -44.352900981903
+          },
+          {
+            "latitude": -3.3973104923725,
+            "longitude": -44.352785646915
+          },
+          {
+            "latitude": -3.3971846500838,
+            "longitude": -44.352445006371
+          },
+          {
+            "latitude": -3.3968820930247,
+            "longitude": -44.35255497694
+          }
+        ]
+      },
+      "areas": [
+        {
+          "idArea": "48",
+          "idTipoArea": "1",
+          "endereco": "Travessa Benedito Braúlio Mendes, S/Nº - Centro",
+          "valor": "1",
+          "proprio": "0",
+          "doacao": "CAIC",
+          "documento": "-",
+          "publicacao": "-",
+          "observacao": "-",
+          "arquivos": [
+            {
+              "idArquivo": "7",
+              "idTipoArquivo": "1",
+              "idArea": "48",
+              "descricao": null,
+              "path": "/areaFiles/e81ea3f7163a0eb9ea8ada63a2f8b68e.JPG"
+            }
+          ]
+        },
+        {
+          "idArea": "52",
+          "idTipoArea": "2",
+          "endereco": "Travessa Benedito Braúlio Mendes, S/N - Centro",
+          "valor": "498.06",
+          "proprio": "0",
+          "doacao": "CAIC",
+          "documento": "-",
+          "publicacao": "-",
+          "observacao": "Instalações Atuais",
+          "arquivos": []
+        }
+      ],
+      "cursos": [
+        {
+          "idCurso": "33",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "Letras Licenciatura (Língua Portuguesa e Literaturas de Língua Portuguesa)"
+        },
+        {
+          "idCurso": "13",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "Ciências Biológicas Licenciatura"
+        },
+        {
+          "idCurso": "49",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "Tecnologia de Agronegócio"
+        },
+        {
+          "idCurso": "55",
+          "idTipoCurso": "2",
+          "tipoCurso": "Distância",
+          "descricao": "Tecnologia em Gestão Comercial"
+        }
+      ],
+      "gestores": [
+        {
+          "idGestor": "26",
+          "idTipoGestor": "1",
+          "tipoGestor": "Diretor de Centro",
+          "nome": "Conceição de Maria Neiva Pacheco",
+          "telefones": [
+            "(98)3463-2592",
+            "9-9140-5412"
+          ],
+          "email": "uemaitapecuru@gmail.com"
+        }
+      ]
+    },
+    {
+      "localidade": {
+        "idLocalidade": "167",
+        "idCentro": "CEN31",
+        "nome": "UEMA Campus São João dos Patos",
+        "sigla": "UEMA",
+        "marcador": "/img/markers/oeste.png",
+        "latitude": -6.4945311693177,
+        "longitude": -43.704281151295,
+        "vertices": [
+          {
+            "latitude": -6.4943272972346,
+            "longitude": -43.703835904598
+          },
+          {
+            "latitude": -6.4941061023987,
+            "longitude": -43.704471588135
+          },
+          {
+            "latitude": -6.4948123265344,
+            "longitude": -43.704726397991
+          },
+          {
+            "latitude": -6.4949562362368,
+            "longitude": -43.704278469086
+          },
+          {
+            "latitude": -6.494865626429,
+            "longitude": -43.70423823595
+          },
+          {
+            "latitude": -6.494929586295,
+            "longitude": -43.704058527946
+          },
+          {
+            "latitude": -6.4943272972346,
+            "longitude": -43.703835904598
+          }
+        ]
+      },
+      "areas": [
+        {
+          "idArea": "54",
+          "idTipoArea": "1",
+          "endereco": "Avenida Presidente Médice - Bairro: Centro, CEP. 65665-000",
+          "valor": "5743.43",
+          "proprio": "1",
+          "doacao": "União Federtal",
+          "documento": "Contrato de Incorporação, Retificação e Doação com Encargos",
+          "publicacao": "",
+          "observacao": "Futuras Instalações",
+          "arquivos": []
+        },
+        {
+          "idArea": "82",
+          "idTipoArea": "2",
+          "endereco": "Avenida Presidente Médice - Bairro: Centro, CEP. 65665-000",
+          "valor": "1",
+          "proprio": "0",
+          "doacao": "-",
+          "documento": "-",
+          "publicacao": "-",
+          "observacao": "Futuras Instalações",
+          "arquivos": []
+        }
+      ],
+      "cursos": [],
+      "gestores": [
+        {
+          "idGestor": "37",
+          "idTipoGestor": "1",
+          "tipoGestor": "Diretor de Centro",
+          "nome": "Edna Santana Nolêto",
+          "telefones": [
+            "(99) 3551 2621"
+          ],
+          "email": "campusuemasaojoaodospatos@hotmail.com"
+        }
+      ]
+    },
+    {
+      "localidade": {
+        "idLocalidade": "168",
+        "idCentro": "CEN09",
+        "nome": "UEMA Campus Açailândia",
+        "sigla": "UEMA",
+        "marcador": "/img/markers/leste.png",
+        "latitude": -4.9440467989832,
+        "longitude": -47.478438913822,
+        "vertices": [
+          {
+            "latitude": -4.9441483439785,
+            "longitude": -47.47926235199
+          },
+          {
+            "latitude": -4.9446614117493,
+            "longitude": -47.478994131088
+          },
+          {
+            "latitude": -4.943913187784,
+            "longitude": -47.477615475655
+          },
+          {
+            "latitude": -4.9434321862171,
+            "longitude": -47.477894425392
+          },
+          {
+            "latitude": -4.9441483439785,
+            "longitude": -47.47926235199
+          }
+        ]
+      },
+      "areas": [
+        {
+          "idArea": "55",
+          "idTipoArea": "2",
+          "endereco": "Rua Topázio Nº 100 - Vila São Francisco",
+          "valor": "1496.61",
+          "proprio": "1",
+          "doacao": "Vale S.A.",
+          "documento": "Escritura Pública de Doação de 25 de outubro de 2013",
+          "publicacao": "",
+          "observacao": "",
+          "arquivos": []
+        },
+        {
+          "idArea": "56",
+          "idTipoArea": "1",
+          "endereco": "Rua Topázio Nº 100 - Vila São Francisco",
+          "valor": "10507.67",
+          "proprio": "1",
+          "doacao": "Vale S.A.",
+          "documento": "Escritura Pública de Doação de 25 de outubro de 2013",
+          "publicacao": "",
+          "observacao": "",
+          "arquivos": [
+            {
+              "idArquivo": "9",
+              "idTipoArquivo": "1",
+              "idArea": "56",
+              "descricao": null,
+              "path": "/areaFiles/ec1ee7bf64f87cc081091f67b1772c25.jpg"
+            }
+          ]
+        }
+      ],
+      "cursos": [
+        {
+          "idCurso": "33",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "Letras Licenciatura (Língua Portuguesa e Literaturas de Língua Portuguesa)"
+        },
+        {
+          "idCurso": "9",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "Administração (Bacharelado)"
+        },
+        {
+          "idCurso": "53",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "Tecnologia em Gestão Ambiental"
+        },
+        {
+          "idCurso": "46",
+          "idTipoCurso": "2",
+          "tipoCurso": "Distância",
+          "descricao": "Pedagogia Licenciatura"
+        },
+        {
+          "idCurso": "50",
+          "idTipoCurso": "2",
+          "tipoCurso": "Distância",
+          "descricao": "Tecnologia de Alimentos"
+        },
+        {
+          "idCurso": "28",
+          "idTipoCurso": "2",
+          "tipoCurso": "Distância",
+          "descricao": "Filosofia Licenciatura"
+        },
+        {
+          "idCurso": "10",
+          "idTipoCurso": "2",
+          "tipoCurso": "Distância",
+          "descricao": "Administração Pública Bacharelado"
+        }
+      ],
+      "gestores": [
+        {
+          "idGestor": "42",
+          "idTipoGestor": "1",
+          "tipoGestor": "Diretor de Centro",
+          "nome": "Jose Ribamar Ferreira Oliveira",
+          "telefones": [
+            "(99) 3538-4629",
+            "(99) 3538 4972",
+            "(99) 3538-4629",
+            "(99) 3538-4629",
+            "(99) 3538-4629",
+            ""
+          ],
+          "email": "uema.campusacailandia@outlook.com"
+        }
+      ]
+    },
+    {
+      "localidade": {
+        "idLocalidade": "169",
+        "idCentro": "CEN14",
+        "nome": "UEMA Campus São João dos Patos",
+        "sigla": "UEMA",
+        "marcador": "/img/markers/oeste.png",
+        "latitude": -6.4903564351984,
+        "longitude": -43.700151890516,
+        "vertices": [
+          {
+            "latitude": -6.4903910806314,
+            "longitude": -43.700678944588
+          },
+          {
+            "latitude": -6.4899140421347,
+            "longitude": -43.700137138367
+          },
+          {
+            "latitude": -6.4902365095479,
+            "longitude": -43.699624836445
+          },
+          {
+            "latitude": -6.490798828262,
+            "longitude": -43.699952065945
+          },
+          {
+            "latitude": -6.4903910806314,
+            "longitude": -43.700678944588
+          }
+        ]
+      },
+      "areas": [
+        {
+          "idArea": "57",
+          "idTipoArea": "1",
+          "endereco": "Rua Hermes da Fonseca, S/N - Bairro: São Raimundo, CEP. 65665-000",
+          "valor": "3261.68",
+          "proprio": "0",
+          "doacao": "-",
+          "documento": "-",
+          "publicacao": "-",
+          "observacao": "Instalações Atuais",
+          "arquivos": []
+        },
+        {
+          "idArea": "81",
+          "idTipoArea": "2",
+          "endereco": "Rua Hermes da Fonseca, S/N - Bairro: São Raimundo, CEP. 65665-000",
+          "valor": "1",
+          "proprio": "0",
+          "doacao": "-",
+          "documento": "-",
+          "publicacao": "-",
+          "observacao": "Instalações Atuais",
+          "arquivos": []
+        }
+      ],
+      "cursos": [
+        {
+          "idCurso": "33",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "Letras Licenciatura (Língua Portuguesa e Literaturas de Língua Portuguesa)"
+        },
+        {
+          "idCurso": "51",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "Tecnologia em Agroindústria"
+        },
+        {
+          "idCurso": "56",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "Tecnologia em Segurança do Trabalho"
+        },
+        {
+          "idCurso": "10",
+          "idTipoCurso": "2",
+          "tipoCurso": "Distância",
+          "descricao": "Administração Pública Bacharelado"
+        },
+        {
+          "idCurso": "46",
+          "idTipoCurso": "2",
+          "tipoCurso": "Distância",
+          "descricao": "Pedagogia Licenciatura"
+        },
+        {
+          "idCurso": "28",
+          "idTipoCurso": "2",
+          "tipoCurso": "Distância",
+          "descricao": "Filosofia Licenciatura"
+        }
+      ],
+      "gestores": [
+        {
+          "idGestor": "38",
+          "idTipoGestor": "1",
+          "tipoGestor": "Diretor de Centro",
+          "nome": "Edna Santana Nolêto",
+          "telefones": [
+            "(99) 3551-2621"
+          ],
+          "email": "campusuemasaojoaodospatos@hotmail.com"
+        }
+      ]
+    },
+    {
+      "localidade": {
+        "idLocalidade": "170",
+        "idCentro": "CEN06",
+        "nome": "UEMA Bacabal",
+        "sigla": "UEMA",
+        "marcador": "/img/markers/centro.png",
+        "latitude": -4.2435539272426,
+        "longitude": -44.794518649578,
+        "vertices": [
+          {
+            "latitude": -4.2427300716616,
+            "longitude": -44.794998764992
+          },
+          {
+            "latitude": -4.2430082569096,
+            "longitude": -44.794827103615
+          },
+          {
+            "latitude": -4.2428156671332,
+            "longitude": -44.79440331459
+          },
+          {
+            "latitude": -4.2431206009237,
+            "longitude": -44.794215559959
+          },
+          {
+            "latitude": -4.243040355201,
+            "longitude": -44.794076085091
+          },
+          {
+            "latitude": -4.2433452889029,
+            "longitude": -44.793909788132
+          },
+          {
+            "latitude": -4.2440300518647,
+            "longitude": -44.793689846992
+          },
+          {
+            "latitude": -4.2443777828237,
+            "longitude": -44.794312119484
+          },
+          {
+            "latitude": -4.2441744939744,
+            "longitude": -44.794891476631
+          },
+          {
+            "latitude": -4.2432489940627,
+            "longitude": -44.795347452164
+          },
+          {
+            "latitude": -4.2429226614594,
+            "longitude": -44.795266985893
+          },
+          {
+            "latitude": -4.2427300716616,
+            "longitude": -44.794998764992
+          }
+        ]
+      },
+      "areas": [
+        {
+          "idArea": "58",
+          "idTipoArea": "1",
+          "endereco": "Rua Dias Carneiro com Rua Teixeira de Freitas",
+          "valor": "21412.04",
+          "proprio": "1",
+          "doacao": "FACT - Fundação de Apoio à Ciência e Tecnolog",
+          "documento": "Termo de Transferência de Terreno / Processo nº 118/2012",
+          "publicacao": "",
+          "observacao": "",
+          "arquivos": [
+            {
+              "idArquivo": "10",
+              "idTipoArquivo": "1",
+              "idArea": "58",
+              "descricao": null,
+              "path": "/areaFiles/71928b8eea99d266f44fb2b6e1f8b911.jpg"
+            }
+          ]
+        },
+        {
+          "idArea": "59",
+          "idTipoArea": "2",
+          "endereco": "Rua Dias Carneiro com Rua Teixeira de Freitas",
+          "valor": "4116.63",
+          "proprio": "1",
+          "doacao": "UEMA - Construido",
+          "documento": "-",
+          "publicacao": "",
+          "observacao": "",
+          "arquivos": []
+        }
+      ],
+      "cursos": [
+        {
+          "idCurso": "21",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "Engenharia Agronômica Bacharelado"
+        },
+        {
+          "idCurso": "34",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "Letras Licenciatura (Língua Portuguesa, Língua Inglesa e respectivas Licenciaturas)"
+        },
+        {
+          "idCurso": "40",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "Matemática Licenciatura"
+        },
+        {
+          "idCurso": "20",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "Enfermagem Bacharelado"
+        },
+        {
+          "idCurso": "46",
+          "idTipoCurso": "2",
+          "tipoCurso": "Distância",
+          "descricao": "Pedagogia Licenciatura"
+        },
+        {
+          "idCurso": "28",
+          "idTipoCurso": "2",
+          "tipoCurso": "Distância",
+          "descricao": "Filosofia Licenciatura"
+        },
+        {
+          "idCurso": "52",
+          "idTipoCurso": "2",
+          "tipoCurso": "Distância",
+          "descricao": "Tecnologia em Alimentos"
+        },
+        {
+          "idCurso": "10",
+          "idTipoCurso": "2",
+          "tipoCurso": "Distância",
+          "descricao": "Administração Pública Bacharelado"
+        },
+        {
+          "idCurso": "28",
+          "idTipoCurso": "2",
+          "tipoCurso": "Distância",
+          "descricao": "Filosofia Licenciatura"
+        }
+      ],
+      "gestores": []
+    },
+    {
+      "localidade": {
+        "idLocalidade": "171",
+        "idCentro": "CEN13",
+        "nome": "UEMA Campus Pedreiras",
+        "sigla": "UEMA",
+        "marcador": "/img/markers/centro.png",
+        "latitude": -4.5863280949404,
+        "longitude": -44.585338532925,
+        "vertices": [
+          {
+            "latitude": -4.5863227477231,
+            "longitude": -44.585553109646
+          },
+          {
+            "latitude": -4.5861436151226,
+            "longitude": -44.585236608982
+          },
+          {
+            "latitude": -4.5863521575487,
+            "longitude": -44.585123956203
+          },
+          {
+            "latitude": -4.5865125747582,
+            "longitude": -44.585443139076
+          },
+          {
+            "latitude": -4.5863227477231,
+            "longitude": -44.585553109646
+          }
+        ]
+      },
+      "areas": [
+        {
+          "idArea": "60",
+          "idTipoArea": "1",
+          "endereco": "Rua Projetada, S/N Bloco Universitário, Bairro: São Francisco - CAIC, CEP. 65.725.000",
+          "valor": "1",
+          "proprio": "0",
+          "doacao": "-",
+          "documento": "-",
+          "publicacao": "-",
+          "observacao": "-",
+          "arquivos": []
+        },
+        {
+          "idArea": "80",
+          "idTipoArea": "2",
+          "endereco": "Rua Projetada, S/N Bloco Universitário, Bairro: São Francisco - CAIC, CEP. 65.725.000",
+          "valor": "543",
+          "proprio": "0",
+          "doacao": "-",
+          "documento": "-",
+          "publicacao": "-",
+          "observacao": "-",
+          "arquivos": [
+            {
+              "idArquivo": "21",
+              "idTipoArquivo": "1",
+              "idArea": "80",
+              "descricao": null,
+              "path": "/areaFiles/a0a0dacb0edbbb406baab852baf27ffe.JPG"
+            }
+          ]
+        }
+      ],
+      "cursos": [
+        {
+          "idCurso": "40",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "Matemática Licenciatura"
+        },
+        {
+          "idCurso": "54",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "Tecnologia em Gestão Comercial"
+        },
+        {
+          "idCurso": "36",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "Letras Licenciatura em Língua Portuguesa e Literaturas de Língua Portuguesa"
+        },
+        {
+          "idCurso": "55",
+          "idTipoCurso": "2",
+          "tipoCurso": "Distância",
+          "descricao": "Tecnologia em Gestão Comercial"
+        },
+        {
+          "idCurso": "10",
+          "idTipoCurso": "2",
+          "tipoCurso": "Distância",
+          "descricao": "Administração Pública Bacharelado"
+        }
+      ],
+      "gestores": [
+        {
+          "idGestor": "33",
+          "idTipoGestor": "1",
+          "tipoGestor": "Diretor de Centro",
+          "nome": "Carmem Lúcia de Moraes Costa",
+          "telefones": [],
+          "email": "uemacampuspedreiras@gmail.com"
+        }
+      ]
+    },
+    {
+      "localidade": {
+        "idLocalidade": "173",
+        "idCentro": "CEN15",
+        "nome": "UEMA Campus Barra do Corda",
+        "sigla": "UEMA",
+        "marcador": "/img/markers/centro.png",
+        "latitude": -5.5047734595279,
+        "longitude": -45.238425582647,
+        "vertices": [
+          {
+            "latitude": -5.5047627803058,
+            "longitude": -45.238848030567
+          },
+          {
+            "latitude": -5.5051739354124,
+            "longitude": -45.238585174084
+          },
+          {
+            "latitude": -5.5047601104665,
+            "longitude": -45.238003134727
+          },
+          {
+            "latitude": -5.5043729836435,
+            "longitude": -45.238265991211
+          },
+          {
+            "latitude": -5.5047627803058,
+            "longitude": -45.238848030567
+          }
+        ]
+      },
+      "areas": [
+        {
+          "idArea": "63",
+          "idTipoArea": "1",
+          "endereco": "Nelson Paturi, S/N, Bairro: Altamira",
+          "valor": "1",
+          "proprio": "0",
+          "doacao": "-",
+          "documento": "-",
+          "publicacao": "-",
+          "observacao": "",
+          "arquivos": [
+            {
+              "idArquivo": "12",
+              "idTipoArquivo": "1",
+              "idArea": "63",
+              "descricao": null,
+              "path": "/areaFiles/0b25e1b472d540a5dd088738715b9dc7.jpg"
+            }
+          ]
+        },
+        {
+          "idArea": "64",
+          "idTipoArea": "2",
+          "endereco": "Nelson Paturi, S/N, Bairro: Altamira",
+          "valor": "575",
+          "proprio": "0",
+          "doacao": "-",
+          "documento": "-",
+          "publicacao": "-",
+          "observacao": "",
+          "arquivos": []
+        }
+      ],
+      "cursos": [
+        {
+          "idCurso": "33",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "Letras Licenciatura (Língua Portuguesa e Literaturas de Língua Portuguesa)"
+        },
+        {
+          "idCurso": "56",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "Tecnologia em Segurança do Trabalho"
+        },
+        {
+          "idCurso": "10",
+          "idTipoCurso": "2",
+          "tipoCurso": "Distância",
+          "descricao": "Administração Pública Bacharelado"
+        },
+        {
+          "idCurso": "28",
+          "idTipoCurso": "2",
+          "tipoCurso": "Distância",
+          "descricao": "Filosofia Licenciatura"
+        },
+        {
+          "idCurso": "46",
+          "idTipoCurso": "2",
+          "tipoCurso": "Distância",
+          "descricao": "Pedagogia Licenciatura"
+        }
+      ],
+      "gestores": [
+        {
+          "idGestor": "23",
+          "idTipoGestor": "1",
+          "tipoGestor": "Diretor de Centro",
+          "nome": "Joel  Manoel Alves Filho",
+          "telefones": [
+            "(99) 3643-1294"
+          ],
+          "email": "joelalves@cct.uema.br"
+        }
+      ]
+    },
+    {
+      "localidade": {
+        "idLocalidade": "174",
+        "idCentro": "CEN19",
+        "nome": "UEMA Campus Codó",
+        "sigla": "UEMA",
+        "marcador": "/img/markers/oeste.png",
+        "latitude": -4.465630755765,
+        "longitude": -43.88624355197,
+        "vertices": [
+          {
+            "latitude": -4.4652109273379,
+            "longitude": -43.886306583881
+          },
+          {
+            "latitude": -4.4653098678452,
+            "longitude": -43.885960578918
+          },
+          {
+            "latitude": -4.4660505841921,
+            "longitude": -43.886151015759
+          },
+          {
+            "latitude": -4.4659409475236,
+            "longitude": -43.886526525021
+          },
+          {
+            "latitude": -4.4652109273379,
+            "longitude": -43.886306583881
+          }
+        ]
+      },
+      "areas": [
+        {
+          "idArea": "65",
+          "idTipoArea": "2",
+          "endereco": "Rua Léa Archer, S/N, Bairro: São Sebastião, CEP. 65400-000",
+          "valor": "1011.56",
+          "proprio": "0",
+          "doacao": "Instituto Estadual de Educação, Ciência e Tec",
+          "documento": "Termo de Cessão Gratuita de Bem Imóvel",
+          "publicacao": "-",
+          "observacao": "",
+          "arquivos": []
+        },
+        {
+          "idArea": "66",
+          "idTipoArea": "1",
+          "endereco": "Rua Léa Archer, S/N, Bairro: São Sebastião, CEP. 65400-000",
+          "valor": "1",
+          "proprio": "0",
+          "doacao": "-",
+          "documento": "-",
+          "publicacao": "-",
+          "observacao": "",
+          "arquivos": [
+            {
+              "idArquivo": "13",
+              "idTipoArquivo": "1",
+              "idArea": "66",
+              "descricao": null,
+              "path": "/areaFiles/a82c95d4851bda590626d07b297d8fc2.jpg"
+            }
+          ]
+        }
+      ],
+      "cursos": [
+        {
+          "idCurso": "20",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "Enfermagem Bacharelado"
+        },
+        {
+          "idCurso": "33",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "Letras Licenciatura (Língua Portuguesa e Literaturas de Língua Portuguesa)"
+        },
+        {
+          "idCurso": "54",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "Tecnologia em Gestão Comercial"
+        },
+        {
+          "idCurso": "10",
+          "idTipoCurso": "2",
+          "tipoCurso": "Distância",
+          "descricao": "Administração Pública Bacharelado"
+        },
+        {
+          "idCurso": "55",
+          "idTipoCurso": "2",
+          "tipoCurso": "Distância",
+          "descricao": "Tecnologia em Gestão Comercial"
+        },
+        {
+          "idCurso": "46",
+          "idTipoCurso": "2",
+          "tipoCurso": "Distância",
+          "descricao": "Pedagogia Licenciatura"
+        },
+        {
+          "idCurso": "28",
+          "idTipoCurso": "2",
+          "tipoCurso": "Distância",
+          "descricao": "Filosofia Licenciatura"
+        }
+      ],
+      "gestores": [
+        {
+          "idGestor": "43",
+          "idTipoGestor": "1",
+          "tipoGestor": "Diretor de Centro",
+          "nome": "Deuzimar Costa Serra",
+          "telefones": [],
+          "email": "administracao@cescd.uema.br"
+        }
+      ]
+    },
+    {
+      "localidade": {
+        "idLocalidade": "175",
+        "idCentro": "CEN23",
+        "nome": "UEMA Campus Coelho Neto",
+        "sigla": "UEMA",
+        "marcador": "/img/markers/oeste.png",
+        "latitude": -4.2683641530245,
+        "longitude": -43.028734624386,
+        "vertices": [
+          {
+            "latitude": -4.2685500495997,
+            "longitude": -43.029182553291
+          },
+          {
+            "latitude": -4.267950901123,
+            "longitude": -43.028833866119
+          },
+          {
+            "latitude": -4.2680739405805,
+            "longitude": -43.02850663662
+          },
+          {
+            "latitude": -4.2682959465082,
+            "longitude": -43.02828669548
+          },
+          {
+            "latitude": -4.268777404926,
+            "longitude": -43.028710484505
+          },
+          {
+            "latitude": -4.2686383169697,
+            "longitude": -43.028866052628
+          },
+          {
+            "latitude": -4.268707860951,
+            "longitude": -43.028906285763
+          },
+          {
+            "latitude": -4.2685500495997,
+            "longitude": -43.029182553291
+          }
+        ]
+      },
+      "areas": [
+        {
+          "idArea": "67",
+          "idTipoArea": "1",
+          "endereco": "Avenida Antônio Guimarães S/N, Bairro: Olho D Aguinha CEP. 65620-000",
+          "valor": "1",
+          "proprio": "0",
+          "doacao": "SEDUC-MA",
+          "documento": "Errata do Termo de Gestão de Bem Imóvel nº 003/2012.  Duração: ---",
+          "publicacao": "D.O.E. 06/07/2012 Edição Nº 131, Publicação de Terceiros",
+          "observacao": "",
+          "arquivos": [
+            {
+              "idArquivo": "14",
+              "idTipoArquivo": "1",
+              "idArea": "67",
+              "descricao": null,
+              "path": "/areaFiles/19d85e682a8fda0e40c3b9aa10efe54c.jpg"
+            }
+          ]
+        },
+        {
+          "idArea": "68",
+          "idTipoArea": "2",
+          "endereco": "Avenida Antônio Guimarães S/N, Bairro Olho D Aguinha CEP. 65620-000",
+          "valor": "1",
+          "proprio": "0",
+          "doacao": "SEDUC-MA",
+          "documento": "Errata do Termo de Gestão de Bem Imóvel nº 003/2012.  Duração: ---",
+          "publicacao": "D.O.E. 06/07/2012 Edição Nº 131, Publicação de Terceiros",
+          "observacao": "",
+          "arquivos": []
+        }
+      ],
+      "cursos": [
+        {
+          "idCurso": "13",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "Ciências Biológicas Licenciatura"
+        },
+        {
+          "idCurso": "48",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "Tecnologia da informação Web Designer"
+        },
+        {
+          "idCurso": "14",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "Ciências Habilitação em Biologia"
+        },
+        {
+          "idCurso": "55",
+          "idTipoCurso": "2",
+          "tipoCurso": "Distância",
+          "descricao": "Tecnologia em Gestão Comercial"
+        },
+        {
+          "idCurso": "10",
+          "idTipoCurso": "2",
+          "tipoCurso": "Distância",
+          "descricao": "Administração Pública Bacharelado"
+        },
+        {
+          "idCurso": "46",
+          "idTipoCurso": "2",
+          "tipoCurso": "Distância",
+          "descricao": "Pedagogia Licenciatura"
+        },
+        {
+          "idCurso": "28",
+          "idTipoCurso": "2",
+          "tipoCurso": "Distância",
+          "descricao": "Filosofia Licenciatura"
+        }
+      ],
+      "gestores": [
+        {
+          "idGestor": "49",
+          "idTipoGestor": "1",
+          "tipoGestor": "Diretor de Centro",
+          "nome": "Raimunda Nonata Reis Lobão",
+          "telefones": [
+            "(99) 3525-2785",
+            "(99) 99142-6192"
+          ],
+          "email": null
+        }
+      ]
+    },
+    {
+      "localidade": {
+        "idLocalidade": "176",
+        "idCentro": "CEN19",
+        "nome": "UEMA Campus Colinas",
+        "sigla": "UEMA",
+        "marcador": "/img/markers/oeste.png",
+        "latitude": -6.0268788669002,
+        "longitude": -44.246161133051,
+        "vertices": [
+          {
+            "latitude": -6.0269468853705,
+            "longitude": -44.246658682823
+          },
+          {
+            "latitude": -6.0264267453508,
+            "longitude": -44.24642264843
+          },
+          {
+            "latitude": -6.0267388294225,
+            "longitude": -44.245663583279
+          },
+          {
+            "latitude": -6.0273309884497,
+            "longitude": -44.245950579643
+          },
+          {
+            "latitude": -6.0269468853705,
+            "longitude": -44.246658682823
+          }
+        ]
+      },
+      "areas": [
+        {
+          "idArea": "71",
+          "idTipoArea": "1",
+          "endereco": "Av. Dr. Osano Brandão, 491, Centro",
+          "valor": "1",
+          "proprio": "0",
+          "doacao": "-",
+          "documento": "-",
+          "publicacao": "-",
+          "observacao": "",
+          "arquivos": [
+            {
+              "idArquivo": "16",
+              "idTipoArquivo": "1",
+              "idArea": "71",
+              "descricao": null,
+              "path": "/areaFiles/779d7e89709f29798f6c86d5a8787eab.jpg"
+            }
+          ]
+        },
+        {
+          "idArea": "72",
+          "idTipoArea": "2",
+          "endereco": "Av. Dr. Osano Brandão, Nº 491 - Centro",
+          "valor": "1",
+          "proprio": "0",
+          "doacao": "-",
+          "documento": "-",
+          "publicacao": "-",
+          "observacao": "",
+          "arquivos": []
+        }
+      ],
+      "cursos": [],
+      "gestores": [
+        {
+          "idGestor": "32",
+          "idTipoGestor": "1",
+          "tipoGestor": "Diretor de Centro",
+          "nome": "Maria Helena Ribeiro Pereira",
+          "telefones": [
+            "(99) 3552-1845"
+          ],
+          "email": "cesco_colinas@hotmail.com"
+        }
+      ]
+    },
+    {
+      "localidade": {
+        "idLocalidade": "177",
+        "idCentro": "CEN18",
+        "nome": "UEMA Campus Presidente Dutra",
+        "sigla": "UEMA",
+        "marcador": "/img/markers/centro.png",
+        "latitude": -5.2939487514165,
+        "longitude": -44.499014317989,
+        "vertices": [
+          {
+            "latitude": -5.2939580991758,
+            "longitude": -44.499303996563
+          },
+          {
+            "latitude": -5.2942465420389,
+            "longitude": -44.498995542526
+          },
+          {
+            "latitude": -5.2939394038004,
+            "longitude": -44.498724639416
+          },
+          {
+            "latitude": -5.2936509607941,
+            "longitude": -44.499025046825
+          },
+          {
+            "latitude": -5.2939580991758,
+            "longitude": -44.499303996563
+          }
+        ]
+      },
+      "areas": [
+        {
+          "idArea": "69",
+          "idTipoArea": "2",
+          "endereco": "Rua 28 de Junho Sul, S/Nº, Bairro: Vila Militar",
+          "valor": "1",
+          "proprio": "0",
+          "doacao": "-",
+          "documento": "-",
+          "publicacao": "-",
+          "observacao": "-",
+          "arquivos": [
+            {
+              "idArquivo": "15",
+              "idTipoArquivo": "1",
+              "idArea": "69",
+              "descricao": null,
+              "path": "/areaFiles/5fd18e54df8dd68dd6d8e46f4a57cd70.jpg"
+            }
+          ]
+        },
+        {
+          "idArea": "70",
+          "idTipoArea": "1",
+          "endereco": "Rua 28 de Junho Sul, S/Nº, Bairro: Vila Militar",
+          "valor": "1",
+          "proprio": "0",
+          "doacao": "-",
+          "documento": "-",
+          "publicacao": "-",
+          "observacao": "-",
+          "arquivos": []
+        }
+      ],
+      "cursos": [
+        {
+          "idCurso": "36",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "Letras Licenciatura em Língua Portuguesa e Literaturas de Língua Portuguesa"
+        },
+        {
+          "idCurso": "54",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "Tecnologia em Gestão Comercial"
+        },
+        {
+          "idCurso": "55",
+          "idTipoCurso": "2",
+          "tipoCurso": "Distância",
+          "descricao": "Tecnologia em Gestão Comercial"
+        }
+      ],
+      "gestores": [
+        {
+          "idGestor": "35",
+          "idTipoGestor": "1",
+          "tipoGestor": "Diretor de Centro",
+          "nome": "Ozarina Oliveira Lima",
+          "telefones": [
+            "99() 3663-3100"
+          ],
+          "email": null
+        }
+      ]
+    },
+    {
+      "localidade": {
+        "idLocalidade": "178",
+        "idCentro": "CEN32",
+        "nome": "UEMA Campus Lago da Pedra",
+        "sigla": "UEMA",
+        "marcador": "/img/markers/leste.png",
+        "latitude": -4.5553281302225,
+        "longitude": -45.125311464071,
+        "vertices": [
+          {
+            "latitude": -4.5549310803974,
+            "longitude": -45.125516653061
+          },
+          {
+            "latitude": -4.5551102207991,
+            "longitude": -45.12492120266
+          },
+          {
+            "latitude": -4.5557251800477,
+            "longitude": -45.125100910664
+          },
+          {
+            "latitude": -4.555532671122,
+            "longitude": -45.125701725483
+          },
+          {
+            "latitude": -4.5549310803974,
+            "longitude": -45.125516653061
+          }
+        ]
+      },
+      "areas": [
+        {
+          "idArea": "75",
+          "idTipoArea": "2",
+          "endereco": "Av. Roseana Sarney, S/N - Bairro: Vila Rocha",
+          "valor": "64563",
+          "proprio": "0",
+          "doacao": "SEDUC/MA",
+          "documento": "Termo de Cessão de Uso de Bem Imóvel nº003/2014",
+          "publicacao": "Nº 066 - Publicação de Terceiros, 04 de abril de 2014, pg. 34",
+          "observacao": "-",
+          "arquivos": [
+            {
+              "idArquivo": "18",
+              "idTipoArquivo": "1",
+              "idArea": "75",
+              "descricao": null,
+              "path": "/areaFiles/634964117833a12e90f5f958e06dc2e0.jpg"
+            }
+          ]
+        },
+        {
+          "idArea": "108",
+          "idTipoArea": "1",
+          "endereco": "Av. Roseana Sarney, S/N - Bairro: Vila Rocha",
+          "valor": "15452.41",
+          "proprio": "0",
+          "doacao": "SEDUC/MA",
+          "documento": "Termo de Cessão de Uso de Bem Imóvel nº003/2014",
+          "publicacao": "Nº 066 - Publicação de Terceiros, 04 de abril de 2014, pg. 34",
+          "observacao": "",
+          "arquivos": []
+        }
+      ],
+      "cursos": [
+        {
+          "idCurso": "13",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "Ciências Biológicas Licenciatura"
+        },
+        {
+          "idCurso": "36",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "Letras Licenciatura em Língua Portuguesa e Literaturas de Língua Portuguesa"
+        },
+        {
+          "idCurso": "46",
+          "idTipoCurso": "2",
+          "tipoCurso": "Distância",
+          "descricao": "Pedagogia Licenciatura"
+        },
+        {
+          "idCurso": "28",
+          "idTipoCurso": "2",
+          "tipoCurso": "Distância",
+          "descricao": "Filosofia Licenciatura"
+        },
+        {
+          "idCurso": "10",
+          "idTipoCurso": "2",
+          "tipoCurso": "Distância",
+          "descricao": "Administração Pública Bacharelado"
+        },
+        {
+          "idCurso": "55",
+          "idTipoCurso": "2",
+          "tipoCurso": "Distância",
+          "descricao": "Tecnologia em Gestão Comercial"
+        }
+      ],
+      "gestores": []
+    },
+    {
+      "localidade": {
+        "idLocalidade": "179",
+        "idCentro": "CEN19",
+        "nome": "UEMA Campus Colinas",
+        "sigla": "UEMA",
+        "marcador": "/img/markers/oeste.png",
+        "latitude": -6.0307612300375,
+        "longitude": -44.230061173439,
+        "vertices": [
+          {
+            "latitude": -6.0302490960182,
+            "longitude": -44.230361580849
+          },
+          {
+            "latitude": -6.0303771296288,
+            "longitude": -44.229621291161
+          },
+          {
+            "latitude": -6.0312733640568,
+            "longitude": -44.229760766029
+          },
+          {
+            "latitude": -6.0311133223033,
+            "longitude": -44.230501055717
+          },
+          {
+            "latitude": -6.0302490960182,
+            "longitude": -44.230361580849
+          }
+        ]
+      },
+      "areas": [
+        {
+          "idArea": "73",
+          "idTipoArea": "1",
+          "endereco": "Rua Buriti Bravo, s/n, Bairro Guanabara - Escola Martinha de Meneses",
+          "valor": "9911.23",
+          "proprio": "0",
+          "doacao": "Secretaria de Estado da Educação",
+          "documento": "Termo de Cessão de Uso de Bem Imóvel Nº 001/2015",
+          "publicacao": "D.O Publicação de Terceiros, nº 001 - 04 de janeiro de 2016, p. 09",
+          "observacao": "",
+          "arquivos": [
+            {
+              "idArquivo": "17",
+              "idTipoArquivo": "1",
+              "idArea": "73",
+              "descricao": null,
+              "path": "/areaFiles/c93bad75f6e4225b2480927b7a734dd8.jpg"
+            }
+          ]
+        },
+        {
+          "idArea": "74",
+          "idTipoArea": "2",
+          "endereco": "Rua Buriti Bravo, s/n, Bairro Guanabara - Escola Martinha de Meneses",
+          "valor": "0",
+          "proprio": "0",
+          "doacao": "-",
+          "documento": "-",
+          "publicacao": "-",
+          "observacao": "",
+          "arquivos": []
+        }
+      ],
+      "cursos": [
+        {
+          "idCurso": "20",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "Enfermagem Bacharelado"
+        },
+        {
+          "idCurso": "33",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "Letras Licenciatura (Língua Portuguesa e Literaturas de Língua Portuguesa)"
+        },
+        {
+          "idCurso": "54",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "Tecnologia em Gestão Comercial"
+        },
+        {
+          "idCurso": "55",
+          "idTipoCurso": "2",
+          "tipoCurso": "Distância",
+          "descricao": "Tecnologia em Gestão Comercial"
+        },
+        {
+          "idCurso": "10",
+          "idTipoCurso": "2",
+          "tipoCurso": "Distância",
+          "descricao": "Administração Pública Bacharelado"
+        },
+        {
+          "idCurso": "28",
+          "idTipoCurso": "2",
+          "tipoCurso": "Distância",
+          "descricao": "Filosofia Licenciatura"
+        },
+        {
+          "idCurso": "46",
+          "idTipoCurso": "2",
+          "tipoCurso": "Distância",
+          "descricao": "Pedagogia Licenciatura"
+        }
+      ],
+      "gestores": []
+    },
+    {
+      "localidade": {
+        "idLocalidade": "180",
+        "idCentro": "CEN16",
+        "nome": "UEMA Campus Timon",
+        "sigla": "UEMA",
+        "marcador": "/img/markers/oeste.png",
+        "latitude": -5.1016105607981,
+        "longitude": -42.827157229185,
+        "vertices": [
+          {
+            "latitude": -5.1012619194598,
+            "longitude": -42.826879620552
+          },
+          {
+            "latitude": -5.1016386128445,
+            "longitude": -42.826603353024
+          },
+          {
+            "latitude": -5.1019137858865,
+            "longitude": -42.826927900314
+          },
+          {
+            "latitude": -5.1023439105022,
+            "longitude": -42.827260494232
+          },
+          {
+            "latitude": -5.1020313354995,
+            "longitude": -42.827711105347
+          },
+          {
+            "latitude": -5.1017748635888,
+            "longitude": -42.827579677105
+          },
+          {
+            "latitude": -5.1015397642472,
+            "longitude": -42.827271223068
+          },
+          {
+            "latitude": -5.1013527533458,
+            "longitude": -42.82740265131
+          },
+          {
+            "latitude": -5.1012271888529,
+            "longitude": -42.82723903656
+          },
+          {
+            "latitude": -5.1010321631024,
+            "longitude": -42.827383875847
+          },
+          {
+            "latitude": -5.100877211094,
+            "longitude": -42.82715857029
+          },
+          {
+            "latitude": -5.1012619194598,
+            "longitude": -42.826879620552
+          }
+        ]
+      },
+      "areas": [
+        {
+          "idArea": "76",
+          "idTipoArea": "2",
+          "endereco": "Travessa Timbiras S/Nº, Bairro: Centro, CEP: 65630-410",
+          "valor": "2258.99",
+          "proprio": "0",
+          "doacao": "SEDUC/MA",
+          "documento": "Termo de Gestão de Bem Imóvel nº003/2012",
+          "publicacao": "",
+          "observacao": "Instalações Atuais",
+          "arquivos": []
+        },
+        {
+          "idArea": "104",
+          "idTipoArea": "1",
+          "endereco": "Travessa Timbiras S/Nº, Centro CEP: 65630-410",
+          "valor": "1",
+          "proprio": "0",
+          "doacao": "SEDUC/MA",
+          "documento": "Termo de Gestão de Bem Imóvel nº003/2012",
+          "publicacao": "",
+          "observacao": "",
+          "arquivos": [
+            {
+              "idArquivo": "42",
+              "idTipoArquivo": "1",
+              "idArea": "104",
+              "descricao": "",
+              "path": "/areaFiles/1b19bc7e92ce2c42a89d217592daaf36.jpg"
+            }
+          ]
+        }
+      ],
+      "cursos": [
+        {
+          "idCurso": "33",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "Letras Licenciatura (Língua Portuguesa e Literaturas de Língua Portuguesa)"
+        },
+        {
+          "idCurso": "45",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "Pedagogia Licenciatura"
+        },
+        {
+          "idCurso": "9",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "Administração (Bacharelado)"
+        },
+        {
+          "idCurso": "10",
+          "idTipoCurso": "2",
+          "tipoCurso": "Distância",
+          "descricao": "Administração Pública Bacharelado"
+        },
+        {
+          "idCurso": "46",
+          "idTipoCurso": "2",
+          "tipoCurso": "Distância",
+          "descricao": "Pedagogia Licenciatura"
+        },
+        {
+          "idCurso": "28",
+          "idTipoCurso": "2",
+          "tipoCurso": "Distância",
+          "descricao": "Filosofia Licenciatura"
+        }
+      ],
+      "gestores": [
+        {
+          "idGestor": "34",
+          "idTipoGestor": "1",
+          "tipoGestor": "Diretor de Centro",
+          "nome": "Edite Sampaio Sotero Leal",
+          "telefones": [
+            "(86) 3212 6548"
+          ],
+          "email": "cestiuema@hotmail.com"
+        }
+      ]
+    },
+    {
+      "localidade": {
+        "idLocalidade": "181",
+        "idCentro": "CEN30",
+        "nome": "UEMA Campus Coroatá",
+        "sigla": "UEMA",
+        "marcador": "/img/markers/oeste.png",
+        "latitude": -4.129715786765,
+        "longitude": -44.119504541159,
+        "vertices": [
+          {
+            "latitude": -4.1301023596891,
+            "longitude": -44.119790196419
+          },
+          {
+            "latitude": -4.1301852922344,
+            "longitude": -44.11932349205
+          },
+          {
+            "latitude": -4.1293666673755,
+            "longitude": -44.119146466255
+          },
+          {
+            "latitude": -4.1292462812956,
+            "longitude": -44.119744598866
+          },
+          {
+            "latitude": -4.1298883401773,
+            "longitude": -44.119862616062
+          },
+          {
+            "latitude": -4.1299017163985,
+            "longitude": -44.119766056538
+          },
+          {
+            "latitude": -4.1300996844456,
+            "longitude": -44.119808971882
+          },
+          {
+            "latitude": -4.1301023596891,
+            "longitude": -44.119790196419
+          }
+        ]
+      },
+      "areas": [
+        {
+          "idArea": "77",
+          "idTipoArea": "2",
+          "endereco": "Avenida da Bandeira, S/N, Bairro: Centro, CEP. 65000-415",
+          "valor": "4679.13",
+          "proprio": "0",
+          "doacao": "SEDUC - MA",
+          "documento": "Termo de Cessão de Uso de Bem Imóvel nº004/2014. Duração: 20 anos",
+          "publicacao": "Diário Oficial nº066 de 04 de abril de 2014, pg 35",
+          "observacao": "",
+          "arquivos": [
+            {
+              "idArquivo": "20",
+              "idTipoArquivo": "1",
+              "idArea": "77",
+              "descricao": null,
+              "path": "/areaFiles/297409b26e8781249cddede5052c1e7b.jpg"
+            }
+          ]
+        },
+        {
+          "idArea": "78",
+          "idTipoArea": "1",
+          "endereco": "Avenida da Bandeira, S/N, Bairro: Centro, CEP. 65000-415",
+          "valor": "583.97",
+          "proprio": "0",
+          "doacao": "SEDUC - MA",
+          "documento": "Termo de Cessão de Uso de Bem Imóvel nº004/2014. Duração: 20 anos",
+          "publicacao": "Diário Oficial nº066 de 04 de abril de 2014, pg 35",
+          "observacao": "",
+          "arquivos": []
+        }
+      ],
+      "cursos": [
+        {
+          "idCurso": "20",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "Enfermagem Bacharelado"
+        },
+        {
+          "idCurso": "56",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "Tecnologia em Segurança do Trabalho"
+        },
+        {
+          "idCurso": "41",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "Medicina Bacharelado"
+        }
+      ],
+      "gestores": [
+        {
+          "idGestor": "56",
+          "idTipoGestor": "1",
+          "tipoGestor": "Diretor de Centro",
+          "nome": "Thallita Karollaine de Queiroz Pereira",
+          "telefones": [],
+          "email": "thallitacescr@gmail.com"
+        }
+      ]
+    },
+    {
+      "localidade": {
+        "idLocalidade": "182",
+        "idCentro": "CEN16",
+        "nome": "UEMA Campus Timon",
+        "sigla": "UEMA",
+        "marcador": "/img/markers/oeste.png",
+        "latitude": -5.1132972967757,
+        "longitude": -42.858481407166,
+        "vertices": [
+          {
+            "latitude": -5.1124931647657,
+            "longitude": -42.858240008354
+          },
+          {
+            "latitude": -5.1138449617044,
+            "longitude": -42.85754263401
+          },
+          {
+            "latitude": -5.1141014287856,
+            "longitude": -42.858669161797
+          },
+          {
+            "latitude": -5.1126534570419,
+            "longitude": -42.859420180321
+          },
+          {
+            "latitude": -5.1124931647657,
+            "longitude": -42.858240008354
+          }
+        ]
+      },
+      "areas": [
+        {
+          "idArea": "79",
+          "idTipoArea": "2",
+          "endereco": "Travessa Timbiras, S/N, Bairro: Centro, CEP. 65.360-410",
+          "valor": "1",
+          "proprio": "1",
+          "doacao": "-",
+          "documento": "-",
+          "publicacao": "",
+          "observacao": "Futuras Instalações",
+          "arquivos": []
+        },
+        {
+          "idArea": "103",
+          "idTipoArea": "1",
+          "endereco": "Avenida Luiz Firmino de Sousa Fátima, Centro",
+          "valor": "0",
+          "proprio": "0",
+          "doacao": "",
+          "documento": "",
+          "publicacao": "",
+          "observacao": "",
+          "arquivos": []
+        }
+      ],
+      "cursos": [
+        {
+          "idCurso": "33",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "Letras Licenciatura (Língua Portuguesa e Literaturas de Língua Portuguesa)"
+        },
+        {
+          "idCurso": "45",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "Pedagogia Licenciatura"
+        },
+        {
+          "idCurso": "9",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "Administração (Bacharelado)"
+        },
+        {
+          "idCurso": "46",
+          "idTipoCurso": "2",
+          "tipoCurso": "Distância",
+          "descricao": "Pedagogia Licenciatura"
+        },
+        {
+          "idCurso": "28",
+          "idTipoCurso": "2",
+          "tipoCurso": "Distância",
+          "descricao": "Filosofia Licenciatura"
+        },
+        {
+          "idCurso": "10",
+          "idTipoCurso": "2",
+          "tipoCurso": "Distância",
+          "descricao": "Administração Pública Bacharelado"
+        }
+      ],
+      "gestores": []
+    },
+    {
+      "localidade": {
+        "idLocalidade": "183",
+        "idCentro": "CEN17",
+        "nome": "UEMA Campus Grajaú",
+        "sigla": "UEMA",
+        "marcador": "/img/markers/centro.png",
+        "latitude": -5.8137202116285,
+        "longitude": -46.131100952625,
+        "vertices": [
+          {
+            "latitude": -5.8139523635615,
+            "longitude": -46.130905151367
+          },
+          {
+            "latitude": -5.8137762483471,
+            "longitude": -46.131409406662
+          },
+          {
+            "latitude": -5.8134880596956,
+            "longitude": -46.131296753883
+          },
+          {
+            "latitude": -5.8136961959587,
+            "longitude": -46.130792498589
+          },
+          {
+            "latitude": -5.8139523635615,
+            "longitude": -46.130905151367
+          }
+        ]
+      },
+      "areas": [
+        {
+          "idArea": "83",
+          "idTipoArea": "2",
+          "endereco": "Rua da Mangueiras, S/Nº, Anexo CAIC - Amaral Raposo. Bairro: Mangueiras, CEP. 65940-000",
+          "valor": "505.86",
+          "proprio": "0",
+          "doacao": "-",
+          "documento": "-",
+          "publicacao": "-",
+          "observacao": "",
+          "arquivos": [
+            {
+              "idArquivo": "22",
+              "idTipoArquivo": "1",
+              "idArea": "83",
+              "descricao": null,
+              "path": "/areaFiles/c4874985cb54d715d52c3bcc4c50f6fe.jpg"
+            }
+          ]
+        },
+        {
+          "idArea": "84",
+          "idTipoArea": "1",
+          "endereco": "Rua da Mangueiras, S/Nº, Anexo CAIC - Amaral Raposo. Bairro: Mangueiras, CEP. 65940-000",
+          "valor": "1",
+          "proprio": "1",
+          "doacao": "Ronierd Barros Imob.",
+          "documento": "Escritura Pública de Doação de Imóvel de 11 de setembro de 2015",
+          "publicacao": "",
+          "observacao": "",
+          "arquivos": []
+        }
+      ],
+      "cursos": [
+        {
+          "idCurso": "20",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "Enfermagem Bacharelado"
+        },
+        {
+          "idCurso": "50",
+          "idTipoCurso": "2",
+          "tipoCurso": "Distância",
+          "descricao": "Tecnologia de Alimentos"
+        },
+        {
+          "idCurso": "10",
+          "idTipoCurso": "2",
+          "tipoCurso": "Distância",
+          "descricao": "Administração Pública Bacharelado"
+        },
+        {
+          "idCurso": "46",
+          "idTipoCurso": "2",
+          "tipoCurso": "Distância",
+          "descricao": "Pedagogia Licenciatura"
+        }
+      ],
+      "gestores": [
+        {
+          "idGestor": "39",
+          "idTipoGestor": "1",
+          "tipoGestor": "Diretor de Centro",
+          "nome": "Raimundo Calixto Martins Rodrigues",
+          "telefones": [
+            "(99) 3532 - 6605"
+          ],
+          "email": "cesgra@uema.br"
+        }
+      ]
+    },
+    {
+      "localidade": {
+        "idLocalidade": "184",
+        "idCentro": "CEN08",
+        "nome": "UEMA Campus Imperatriz",
+        "sigla": "UEMA",
+        "marcador": "/img/markers/leste.png",
+        "latitude": -5.5357814968726,
+        "longitude": -47.483396977186,
+        "vertices": [
+          {
+            "latitude": -5.5357267683743,
+            "longitude": -47.484009861946
+          },
+          {
+            "latitude": -5.5364208899243,
+            "longitude": -47.483403682709
+          },
+          {
+            "latitude": -5.5358202078612,
+            "longitude": -47.482784092426
+          },
+          {
+            "latitude": -5.535142103821,
+            "longitude": -47.483382225037
+          },
+          {
+            "latitude": -5.5357267683743,
+            "longitude": -47.484009861946
+          }
+        ]
+      },
+      "areas": [
+        {
+          "idArea": "85",
+          "idTipoArea": "2",
+          "endereco": "Rua Godofredo Viana, Nº 1300, Bairro: Centro CEP. 65901-480",
+          "valor": "3173.86",
+          "proprio": "0",
+          "doacao": "-",
+          "documento": "-",
+          "publicacao": "-",
+          "observacao": "",
+          "arquivos": [
+            {
+              "idArquivo": "23",
+              "idTipoArquivo": "1",
+              "idArea": "85",
+              "descricao": null,
+              "path": "/areaFiles/6e4ee5b8855c8084e3cf97de26a516d1.jpg"
+            }
+          ]
+        },
+        {
+          "idArea": "86",
+          "idTipoArea": "1",
+          "endereco": "Rua Godofredo Viana, Nº 1300, Bairro: Centro CEP. 65901-480",
+          "valor": "9186.99",
+          "proprio": "0",
+          "doacao": "-",
+          "documento": "-",
+          "publicacao": "-",
+          "observacao": "",
+          "arquivos": []
+        }
+      ],
+      "cursos": [
+        {
+          "idCurso": "9",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "Administração (Bacharelado)"
+        },
+        {
+          "idCurso": "32",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "História Licenciatura"
+        },
+        {
+          "idCurso": "31",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "Geografia Licenciatura"
+        },
+        {
+          "idCurso": "35",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "Letras Licenciatura (Língua Portuguesa, Língua Inglesa e respectivas Literaturas)"
+        },
+        {
+          "idCurso": "33",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "Letras Licenciatura (Língua Portuguesa e Literaturas de Língua Portuguesa)"
+        },
+        {
+          "idCurso": "40",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "Matemática Licenciatura"
+        },
+        {
+          "idCurso": "45",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "Pedagogia Licenciatura"
+        },
+        {
+          "idCurso": "13",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "Ciências Biológicas Licenciatura"
+        },
+        {
+          "idCurso": "21",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "Engenharia Agronômica Bacharelado"
+        },
+        {
+          "idCurso": "26",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "Engenharia Florestal Bacharelado"
+        },
+        {
+          "idCurso": "29",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "Física Licenciatura"
+        },
+        {
+          "idCurso": "47",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "Química Licenciatura"
+        },
+        {
+          "idCurso": "42",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "Medicina Veterinária"
+        },
+        {
+          "idCurso": "10",
+          "idTipoCurso": "2",
+          "tipoCurso": "Distância",
+          "descricao": "Administração Pública Bacharelado"
+        },
+        {
+          "idCurso": "28",
+          "idTipoCurso": "2",
+          "tipoCurso": "Distância",
+          "descricao": "Filosofia Licenciatura"
+        },
+        {
+          "idCurso": "46",
+          "idTipoCurso": "2",
+          "tipoCurso": "Distância",
+          "descricao": "Pedagogia Licenciatura"
+        }
+      ],
+      "gestores": [
+        {
+          "idGestor": "44",
+          "idTipoGestor": "1",
+          "tipoGestor": "Diretor de Centro",
+          "nome": "Paulo Henrique Aragão Catunda",
+          "telefones": [
+            "(99) 35252785"
+          ],
+          "email": "phuema.cesi@gmail.com"
+        }
+      ]
+    },
+    {
+      "localidade": {
+        "idLocalidade": "185",
+        "idCentro": "CEN08",
+        "nome": "UEMA Campus Imperatriz",
+        "sigla": "UEMA",
+        "marcador": "/img/markers/leste.png",
+        "latitude": -5.5615235127141,
+        "longitude": -47.45407640934,
+        "vertices": [
+          {
+            "latitude": -5.5628316084183,
+            "longitude": -47.455143928528
+          },
+          {
+            "latitude": -5.5605571243033,
+            "longitude": -47.456120252609
+          },
+          {
+            "latitude": -5.5602901654974,
+            "longitude": -47.454199790955
+          },
+          {
+            "latitude": -5.560525089253,
+            "longitude": -47.454092502594
+          },
+          {
+            "latitude": -5.56021541701,
+            "longitude": -47.453223466873
+          },
+          {
+            "latitude": -5.5619346298173,
+            "longitude": -47.452032566071
+          },
+          {
+            "latitude": -5.5628316084183,
+            "longitude": -47.455143928528
+          }
+        ]
+      },
+      "areas": [
+        {
+          "idArea": "87",
+          "idTipoArea": "1",
+          "endereco": "BR 010, limitando-se com Residencial Colinas Park",
+          "valor": "50000",
+          "proprio": "1",
+          "doacao": "SINRURAL",
+          "documento": "-",
+          "publicacao": "",
+          "observacao": "",
+          "arquivos": []
+        },
+        {
+          "idArea": "88",
+          "idTipoArea": "2",
+          "endereco": "BR 010, limitando-se com Residencial Colinas Park",
+          "valor": "0",
+          "proprio": "1",
+          "doacao": "SINRURAL",
+          "documento": "-",
+          "publicacao": "",
+          "observacao": "",
+          "arquivos": []
+        }
+      ],
+      "cursos": [],
+      "gestores": []
+    },
+    {
+      "localidade": {
+        "idLocalidade": "186",
+        "idCentro": "CEN07",
+        "nome": "UEMA Campus Caxias",
+        "sigla": "UEMA",
+        "marcador": "/img/markers/oeste.png",
+        "latitude": -4.8656256090755,
+        "longitude": -43.355081677437,
+        "vertices": [
+          {
+            "latitude": -4.8659489869923,
+            "longitude": -43.355934619904
+          },
+          {
+            "latitude": -4.8651739493597,
+            "longitude": -43.355762958527
+          },
+          {
+            "latitude": -4.8650403220915,
+            "longitude": -43.35529088974
+          },
+          {
+            "latitude": -4.8654946546952,
+            "longitude": -43.35422873497
+          },
+          {
+            "latitude": -4.8662108960594,
+            "longitude": -43.354421854019
+          },
+          {
+            "latitude": -4.8659489869923,
+            "longitude": -43.355934619904
+          }
+        ]
+      },
+      "areas": [
+        {
+          "idArea": "89",
+          "idTipoArea": "2",
+          "endereco": "Praça Duque de Caxias,  S/N. Morro do Alecrim - CEP: 65.606-550",
+          "valor": "5445.59",
+          "proprio": "1",
+          "doacao": "Prefeitura Municipal de Caxias",
+          "documento": "Contrato de aforamento Nº601 de 19 de novembro de 1976",
+          "publicacao": "",
+          "observacao": "",
+          "arquivos": []
+        },
+        {
+          "idArea": "90",
+          "idTipoArea": "1",
+          "endereco": "Praça Duque de Caxias, S/N, Bairro: Morro do Alecrim, 65.606-550",
+          "valor": "16458",
+          "proprio": "1",
+          "doacao": "Prefeitura Municipal de Caxias",
+          "documento": "Contrato de aforamento Nº601 de 19 de novembro de 1976",
+          "publicacao": "",
+          "observacao": "",
+          "arquivos": [
+            {
+              "idArquivo": "41",
+              "idTipoArquivo": "1",
+              "idArea": "90",
+              "descricao": "",
+              "path": "/areaFiles/a071205a00fda36138c12041b905e60a.jpg"
+            }
+          ]
+        }
+      ],
+      "cursos": [
+        {
+          "idCurso": "47",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "Química Licenciatura"
+        },
+        {
+          "idCurso": "32",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "História Licenciatura"
+        },
+        {
+          "idCurso": "29",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "Física Licenciatura"
+        },
+        {
+          "idCurso": "40",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "Matemática Licenciatura"
+        },
+        {
+          "idCurso": "13",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "Ciências Biológicas Licenciatura"
+        },
+        {
+          "idCurso": "33",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "Letras Licenciatura (Língua Portuguesa e Literaturas de Língua Portuguesa)"
+        },
+        {
+          "idCurso": "35",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "Letras Licenciatura (Língua Portuguesa, Língua Inglesa e respectivas Literaturas)"
+        },
+        {
+          "idCurso": "45",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "Pedagogia Licenciatura"
+        },
+        {
+          "idCurso": "10",
+          "idTipoCurso": "2",
+          "tipoCurso": "Distância",
+          "descricao": "Administração Pública Bacharelado"
+        },
+        {
+          "idCurso": "28",
+          "idTipoCurso": "2",
+          "tipoCurso": "Distância",
+          "descricao": "Filosofia Licenciatura"
+        },
+        {
+          "idCurso": "46",
+          "idTipoCurso": "2",
+          "tipoCurso": "Distância",
+          "descricao": "Pedagogia Licenciatura"
+        },
+        {
+          "idCurso": "31",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "Geografia Licenciatura"
+        }
+      ],
+      "gestores": [
+        {
+          "idGestor": "29",
+          "idTipoGestor": "1",
+          "tipoGestor": "Diretor de Centro",
+          "nome": "Valéria Cristina Soares Pinheiro",
+          "telefones": [
+            "(99) 3521-3936"
+          ],
+          "email": "cesc@cesc.uema.br"
+        }
+      ]
+    },
+    {
+      "localidade": {
+        "idLocalidade": "187",
+        "idCentro": "CEN07",
+        "nome": "UEMA Campus Caxias",
+        "sigla": "UEMA",
+        "marcador": "/img/markers/marrom.png",
+        "latitude": -4.8597139173529,
+        "longitude": -43.361354023218,
+        "vertices": [
+          {
+            "latitude": -4.8591526783322,
+            "longitude": -43.361521661282
+          },
+          {
+            "latitude": -4.8598715990073,
+            "longitude": -43.360773324966
+          },
+          {
+            "latitude": -4.8602751563735,
+            "longitude": -43.361065685749
+          },
+          {
+            "latitude": -4.8600747140033,
+            "longitude": -43.361323177814
+          },
+          {
+            "latitude": -4.8602003245622,
+            "longitude": -43.361435830593
+          },
+          {
+            "latitude": -4.8599678113814,
+            "longitude": -43.361709415913
+          },
+          {
+            "latitude": -4.8598341830803,
+            "longitude": -43.361602127552
+          },
+          {
+            "latitude": -4.8595188201845,
+            "longitude": -43.36193472147
+          },
+          {
+            "latitude": -4.8591526783322,
+            "longitude": -43.361521661282
+          }
+        ]
+      },
+      "areas": [
+        {
+          "idArea": "91",
+          "idTipoArea": "1",
+          "endereco": "Prédio Anexo da Saúde - Rua Quininha Pires, Nº 746, Bairro: Centro CEP: 65.606-550",
+          "valor": "8284.37",
+          "proprio": "1",
+          "doacao": "Governo do Estado do Maranhão",
+          "documento": "Escritura Pública de Doação de 05 de  dezembro de 2005,  livro nº670, fls 71 a 74, Ato 3.161/2005 - Tabelionato do 1º ofício de São Luís-MA, Cartório Oswaldo Soares",
+          "publicacao": "",
+          "observacao": "",
+          "arquivos": []
+        },
+        {
+          "idArea": "92",
+          "idTipoArea": "2",
+          "endereco": "Prédio Anexo da Saúde - Rua Quininha Pires, Nº 746, Bairro: Centro CEP: 65.606-550",
+          "valor": "8284.37",
+          "proprio": "1",
+          "doacao": "Governo do Estado do Maranhão",
+          "documento": "Escritura Pública de Doação de 05 de  dezembro de 2005,  livro nº670, fls 71 a 74, Ato 3.161/2005 - Tabelionato do 1º ofício de São Luís-MA, Cartório Oswaldo Soares",
+          "publicacao": "",
+          "observacao": "",
+          "arquivos": []
+        }
+      ],
+      "cursos": [
+        {
+          "idCurso": "41",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "Medicina Bacharelado"
+        }
+      ],
+      "gestores": [
+        {
+          "idGestor": "36",
+          "idTipoGestor": "1",
+          "tipoGestor": "Diretor de Centro",
+          "nome": "Valéria Cristina Soares Pinheiro",
+          "telefones": [
+            "(99) 3521-3936"
+          ],
+          "email": "cesc@cesc.uema.br"
+        }
+      ]
+    },
+    {
+      "localidade": {
+        "idLocalidade": "188",
+        "idCentro": "CEN06",
+        "nome": "UEMA Campus Balsas",
+        "sigla": "UEMA",
+        "marcador": "/img/markers/sul.png",
+        "latitude": -7.5337822014673,
+        "longitude": -46.039687246084,
+        "vertices": [
+          {
+            "latitude": -7.5334059451386,
+            "longitude": -46.03987634182
+          },
+          {
+            "latitude": -7.5333846726759,
+            "longitude": -46.03954911232
+          },
+          {
+            "latitude": -7.5341531397277,
+            "longitude": -46.039498150349
+          },
+          {
+            "latitude": -7.5341797302587,
+            "longitude": -46.039811968803
+          },
+          {
+            "latitude": -7.5334059451386,
+            "longitude": -46.03987634182
+          }
+        ]
+      },
+      "areas": [
+        {
+          "idArea": "93",
+          "idTipoArea": "1",
+          "endereco": "Praça Gonçalves Dias, S/Nº, Bairro: Centro, CEP. 65800-000",
+          "valor": "2414.51",
+          "proprio": "1",
+          "doacao": "Governo do Estado do Maranhão",
+          "documento": "Registro Geral de Imóvel Matrícula Nº 3.421, Escritura Pública de Compra e Venda de 15/08/1984, livro nº63, fls. 32 e 33. Comarca de Balsas",
+          "publicacao": "",
+          "observacao": "",
+          "arquivos": [
+            {
+              "idArquivo": "24",
+              "idTipoArquivo": "1",
+              "idArea": "93",
+              "descricao": null,
+              "path": "/areaFiles/d79917bf7ae9da514be0dad452e7c555.jpg"
+            }
+          ]
+        },
+        {
+          "idArea": "94",
+          "idTipoArea": "2",
+          "endereco": "Praça Gonçalves Dias, S/N, Bairro: Centro, CEP. 65800-000",
+          "valor": "2129.92",
+          "proprio": "1",
+          "doacao": "Governo do Estado do Maranhão",
+          "documento": "Registro Geral de Imóvel Matrícula Nº 3.421, Escritura Pública de Compra e Venda de 15/08/1984, livro nº63, fls. 32 e 33. Comarca de Balsas",
+          "publicacao": "",
+          "observacao": "",
+          "arquivos": []
+        }
+      ],
+      "cursos": [
+        {
+          "idCurso": "21",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "Engenharia Agronômica Bacharelado"
+        },
+        {
+          "idCurso": "34",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "Letras Licenciatura (Língua Portuguesa, Língua Inglesa e respectivas Licenciaturas)"
+        },
+        {
+          "idCurso": "20",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "Enfermagem Bacharelado"
+        },
+        {
+          "idCurso": "40",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "Matemática Licenciatura"
+        },
+        {
+          "idCurso": "52",
+          "idTipoCurso": "2",
+          "tipoCurso": "Distância",
+          "descricao": "Tecnologia em Alimentos"
+        },
+        {
+          "idCurso": "10",
+          "idTipoCurso": "2",
+          "tipoCurso": "Distância",
+          "descricao": "Administração Pública Bacharelado"
+        },
+        {
+          "idCurso": "28",
+          "idTipoCurso": "2",
+          "tipoCurso": "Distância",
+          "descricao": "Filosofia Licenciatura"
+        },
+        {
+          "idCurso": "46",
+          "idTipoCurso": "2",
+          "tipoCurso": "Distância",
+          "descricao": "Pedagogia Licenciatura"
+        }
+      ],
+      "gestores": [
+        {
+          "idGestor": "41",
+          "idTipoGestor": "1",
+          "tipoGestor": "Diretor de Centro",
+          "nome": "Luciano Façanha Marques",
+          "telefones": [],
+          "email": "luciano@cesba.uema.br"
+        }
+      ]
+    },
+    {
+      "localidade": {
+        "idLocalidade": "189",
+        "idCentro": "CEN35",
+        "nome": "Engenharias e CFO",
+        "sigla": "CCT",
+        "marcador": "/img/markers/norte.png",
+        "latitude": -2.5834700768651,
+        "longitude": -44.209823906422,
+        "vertices": [
+          {
+            "latitude": -2.5830199237448,
+            "longitude": -44.209762215614
+          },
+          {
+            "latitude": -2.5835879741853,
+            "longitude": -44.209268689156
+          },
+          {
+            "latitude": -2.5839202299855,
+            "longitude": -44.209649562836
+          },
+          {
+            "latitude": -2.5836790765908,
+            "longitude": -44.209848046303
+          },
+          {
+            "latitude": -2.5838398455257,
+            "longitude": -44.210057258606
+          },
+          {
+            "latitude": -2.5834593590135,
+            "longitude": -44.210379123688
+          },
+          {
+            "latitude": -2.5830199237448,
+            "longitude": -44.209762215614
+          }
+        ]
+      },
+      "areas": [
+        {
+          "idArea": "101",
+          "idTipoArea": "2",
+          "endereco": "Cidade Universitária Paulo VI - s/n - Tirirical",
+          "valor": "4741.54",
+          "proprio": "0",
+          "doacao": "",
+          "documento": "",
+          "publicacao": "",
+          "observacao": "",
+          "arquivos": [
+            {
+              "idArquivo": "29",
+              "idTipoArquivo": "1",
+              "idArea": "101",
+              "descricao": "",
+              "path": "/areaFiles/0d63dbaf49436027152757433d20fcba.JPG"
+            }
+          ]
+        },
+        {
+          "idArea": "105",
+          "idTipoArea": "1",
+          "endereco": "Cidade Universitária Paulo VI - s/n - Tirirical",
+          "valor": "185236500",
+          "proprio": "1",
+          "doacao": "",
+          "documento": "Escritura Pública de Doação de 08/03/1979",
+          "publicacao": "",
+          "observacao": "",
+          "arquivos": []
+        }
+      ],
+      "cursos": [
+        {
+          "idCurso": "22",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "Engenharia Civil Bacharelado"
+        },
+        {
+          "idCurso": "23",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "Engenharia da Computação Bacharelado"
+        },
+        {
+          "idCurso": "24",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "Engenharia da Produção Bacharelado"
+        },
+        {
+          "idCurso": "17",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "Curso de Formação de Oficiais - CBMMA"
+        }
+      ],
+      "gestores": [
+        {
+          "idGestor": "20",
+          "idTipoGestor": "2",
+          "tipoGestor": "Diretor de Curso",
+          "nome": "Jorge de Jesus Passinho e Silva",
+          "telefones": [
+            "(98) 99993-2356"
+          ],
+          "email": null
+        }
+      ]
+    },
+    {
+      "localidade": {
+        "idLocalidade": "190",
+        "idCentro": "CEN33",
+        "nome": "Agronomia",
+        "sigla": "",
+        "marcador": "/img/markers/norte.png",
+        "latitude": -2.5825027831856,
+        "longitude": -44.208461344242,
+        "vertices": [
+          {
+            "latitude": -2.5820553092073,
+            "longitude": -44.208297729492
+          },
+          {
+            "latitude": -2.5824036423192,
+            "longitude": -44.207986593246
+          },
+          {
+            "latitude": -2.5829502571639,
+            "longitude": -44.208635687828
+          },
+          {
+            "latitude": -2.5825697703851,
+            "longitude": -44.208936095238
+          },
+          {
+            "latitude": -2.5820553092073,
+            "longitude": -44.208297729492
+          }
+        ]
+      },
+      "areas": [
+        {
+          "idArea": "100",
+          "idTipoArea": "2",
+          "endereco": "Cidade Universitária Paulo VI - s/n - Tirirical",
+          "valor": "1",
+          "proprio": "1",
+          "doacao": "",
+          "documento": "",
+          "publicacao": "",
+          "observacao": "",
+          "arquivos": [
+            {
+              "idArquivo": "30",
+              "idTipoArquivo": "1",
+              "idArea": "100",
+              "descricao": "",
+              "path": "/areaFiles/6e94c933f399d5f8f3473daae7cbb8d9.JPG"
+            }
+          ]
+        },
+        {
+          "idArea": "114",
+          "idTipoArea": "1",
+          "endereco": "Cidade Universitária Paulo VI - s/n - Tirirical",
+          "valor": "185236500",
+          "proprio": "1",
+          "doacao": "",
+          "documento": "Escritura Pública de Doação de 08/03/1979",
+          "publicacao": "",
+          "observacao": "",
+          "arquivos": []
+        }
+      ],
+      "cursos": [
+        {
+          "idCurso": "25",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "Engenharia de Pesca Bacharelado"
+        },
+        {
+          "idCurso": "11",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "Agronomia Bacharelado"
+        },
+        {
+          "idCurso": "57",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "Zootecnia Bacharelado"
+        },
+        {
+          "idCurso": "43",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "Medicina Veterinária Bacharelado"
+        }
+      ],
+      "gestores": []
+    },
+    {
+      "localidade": {
+        "idLocalidade": "191",
+        "idCentro": "CEN36",
+        "nome": "Centro de Ciências Exatas e Naturais",
+        "sigla": "CECEN",
+        "marcador": "/img/markers/norte.png",
+        "latitude": -2.5747523495182,
+        "longitude": -44.209447056055,
+        "vertices": [
+          {
+            "latitude": -2.5751207809364,
+            "longitude": -44.209848046303
+          },
+          {
+            "latitude": -2.5751207809364,
+            "longitude": -44.209767580032
+          },
+          {
+            "latitude": -2.5750055624119,
+            "longitude": -44.209759533405
+          },
+          {
+            "latitude": -2.5750645114258,
+            "longitude": -44.209021925926
+          },
+          {
+            "latitude": -2.5747268943096,
+            "longitude": -44.208995103836
+          },
+          {
+            "latitude": -2.5747322533121,
+            "longitude": -44.208952188492
+          },
+          {
+            "latitude": -2.5746357912629,
+            "longitude": -44.208949506283
+          },
+          {
+            "latitude": -2.5746009577433,
+            "longitude": -44.209400117397
+          },
+          {
+            "latitude": -2.5747429713172,
+            "longitude": -44.209405481815
+          },
+          {
+            "latitude": -2.5747349328134,
+            "longitude": -44.209526181221
+          },
+          {
+            "latitude": -2.5745554062163,
+            "longitude": -44.209518134594
+          },
+          {
+            "latitude": -2.5745714832261,
+            "longitude": -44.209233820438
+          },
+          {
+            "latitude": -2.5744241106293,
+            "longitude": -44.209225773811
+          },
+          {
+            "latitude": -2.5743839181,
+            "longitude": -44.209754168987
+          },
+          {
+            "latitude": -2.5745366497047,
+            "longitude": -44.209751486778
+          },
+          {
+            "latitude": -2.5745473677114,
+            "longitude": -44.209577143192
+          },
+          {
+            "latitude": -2.5746357912629,
+            "longitude": -44.209587872028
+          },
+          {
+            "latitude": -2.574625073257,
+            "longitude": -44.20977294445
+          },
+          {
+            "latitude": -2.5747831638352,
+            "longitude": -44.20977294445
+          },
+          {
+            "latitude": -2.5747912023386,
+            "longitude": -44.209630787373
+          },
+          {
+            "latitude": -2.5748769463723,
+            "longitude": -44.209638834
+          },
+          {
+            "latitude": -2.5748769463723,
+            "longitude": -44.209754168987
+          },
+          {
+            "latitude": -2.5747912023386,
+            "longitude": -44.209748804569
+          },
+          {
+            "latitude": -2.5747858433363,
+            "longitude": -44.209839999676
+          },
+          {
+            "latitude": -2.5748287153541,
+            "longitude": -44.209839999676
+          },
+          {
+            "latitude": -2.5748233563519,
+            "longitude": -44.2099365592
+          },
+          {
+            "latitude": -2.5749385748929,
+            "longitude": -44.209944605827
+          },
+          {
+            "latitude": -2.5749358953921,
+            "longitude": -44.20988291502
+          },
+          {
+            "latitude": -2.5749921649084,
+            "longitude": -44.209885597229
+          },
+          {
+            "latitude": -2.5749921649084,
+            "longitude": -44.209853410721
+          },
+          {
+            "latitude": -2.5751207809364,
+            "longitude": -44.209848046303
+          }
+        ]
+      },
+      "areas": [
+        {
+          "idArea": "102",
+          "idTipoArea": "2",
+          "endereco": "Cidade Universitária Paulo VI - s/n - Tirirical",
+          "valor": "9045.22",
+          "proprio": "1",
+          "doacao": "",
+          "documento": "",
+          "publicacao": "",
+          "observacao": "",
+          "arquivos": [
+            {
+              "idArquivo": "34",
+              "idTipoArquivo": "1",
+              "idArea": "102",
+              "descricao": "",
+              "path": "/areaFiles/e41119830a81923485bd4122022c73fd.jpg"
+            },
+            {
+              "idArquivo": "35",
+              "idTipoArquivo": "1",
+              "idArea": "102",
+              "descricao": "",
+              "path": "/areaFiles/5d07834b42cb099f7ea5e662fae41fdb.jpg"
+            }
+          ]
+        },
+        {
+          "idArea": "107",
+          "idTipoArea": "1",
+          "endereco": "Cidade Universitária Paulo VI - s/n - Tirirical",
+          "valor": "0",
+          "proprio": "1",
+          "doacao": "",
+          "documento": "",
+          "publicacao": "",
+          "observacao": "",
+          "arquivos": []
+        }
+      ],
+      "cursos": [
+        {
+          "idCurso": "30",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "Geografia Bacharelado"
+        },
+        {
+          "idCurso": "31",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "Geografia Licenciatura"
+        },
+        {
+          "idCurso": "37",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "Letras Licenciatura em Língua Portuguesa, Língua Espanhola e Literaturas"
+        },
+        {
+          "idCurso": "36",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "Letras Licenciatura em Língua Portuguesa e Literaturas de Língua Portuguesa"
+        },
+        {
+          "idCurso": "38",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "Letras Licenciatura em Língua Portuguesa, Língua Inglesa e Literaturas"
+        },
+        {
+          "idCurso": "45",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "Pedagogia Licenciatura"
+        },
+        {
+          "idCurso": "29",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "Física Licenciatura"
+        },
+        {
+          "idCurso": "47",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "Química Licenciatura"
+        },
+        {
+          "idCurso": "40",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "Matemática Licenciatura"
+        },
+        {
+          "idCurso": "13",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "Ciências Biológicas Licenciatura"
+        }
+      ],
+      "gestores": [
+        {
+          "idGestor": "53",
+          "idTipoGestor": "1",
+          "tipoGestor": "Diretor de Centro",
+          "nome": "Ana Lúcia Cunha Duarte",
+          "telefones": [],
+          "email": null
+        }
+      ]
+    },
+    {
+      "localidade": {
+        "idLocalidade": "192",
+        "idCentro": "CEN34",
+        "nome": "Centro de Ciências Sociais e Aplicadas",
+        "sigla": "",
+        "marcador": "/img/markers/norte.png",
+        "latitude": -2.5772469626995,
+        "longitude": -44.209331721067,
+        "vertices": [
+          {
+            "latitude": -2.5770580582875,
+            "longitude": -44.209703207016
+          },
+          {
+            "latitude": -2.5771839946108,
+            "longitude": -44.209716618061
+          },
+          {
+            "latitude": -2.5772188280597,
+            "longitude": -44.20944839716
+          },
+          {
+            "latitude": -2.5775939574492,
+            "longitude": -44.209496676922
+          },
+          {
+            "latitude": -2.5776636243236,
+            "longitude": -44.209024608135
+          },
+          {
+            "latitude": -2.5771839946108,
+            "longitude": -44.208946824074
+          },
+          {
+            "latitude": -2.5771223661988,
+            "longitude": -44.209327697754
+          },
+          {
+            "latitude": -2.5768490575533,
+            "longitude": -44.209290146828
+          },
+          {
+            "latitude": -2.5768303010754,
+            "longitude": -44.209397435188
+          },
+          {
+            "latitude": -2.5770982507324,
+            "longitude": -44.209432303905
+          },
+          {
+            "latitude": -2.5770580582875,
+            "longitude": -44.209703207016
+          }
+        ]
+      },
+      "areas": [
+        {
+          "idArea": "99",
+          "idTipoArea": "2",
+          "endereco": "Cidade Universitária Paulo VI - S/Nº - Tirirical",
+          "valor": "1",
+          "proprio": "0",
+          "doacao": "",
+          "documento": "",
+          "publicacao": "",
+          "observacao": "",
+          "arquivos": [
+            {
+              "idArquivo": "31",
+              "idTipoArquivo": "1",
+              "idArea": "99",
+              "descricao": "",
+              "path": "/areaFiles/21978524ab1c3fb230197f9d62e8d7c7.JPG"
+            }
+          ]
+        },
+        {
+          "idArea": "106",
+          "idTipoArea": "1",
+          "endereco": "Cidade Universitária Paulo VI - S/Nº - Tirirical",
+          "valor": "185236500",
+          "proprio": "1",
+          "doacao": "",
+          "documento": "Escritura Pública de Doação de 08/03/1979",
+          "publicacao": "",
+          "observacao": "",
+          "arquivos": []
+        }
+      ],
+      "cursos": [
+        {
+          "idCurso": "9",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "Administração (Bacharelado)"
+        },
+        {
+          "idCurso": "19",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "Direito Bacharelado"
+        },
+        {
+          "idCurso": "18",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "Curso de Formação Oficiais – PMMA"
+        },
+        {
+          "idCurso": "15",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "Ciências Sociais Bacharelado"
+        },
+        {
+          "idCurso": "16",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "Ciências Sociais Licenciatura"
+        }
+      ],
+      "gestores": [
+        {
+          "idGestor": "45",
+          "idTipoGestor": "1",
+          "tipoGestor": "Diretor de Centro",
+          "nome": "Helciane de Fátima Abreu Araujo",
+          "telefones": [
+            "(98) 3245-1232"
+          ],
+          "email": "uemaccsa@gmail.com"
+        }
+      ]
+    },
+    {
+      "localidade": {
+        "idLocalidade": "196",
+        "idCentro": "CEN33",
+        "nome": "Fazenda Escola de São Bento",
+        "sigla": "FESB",
+        "marcador": "/img/markers/norte.png",
+        "latitude": -2.7034221034546,
+        "longitude": -44.854012727737,
+        "vertices": [
+          {
+            "latitude": -2.699598870378,
+            "longitude": -44.852156639099
+          },
+          {
+            "latitude": -2.7000382643978,
+            "longitude": -44.85226392746
+          },
+          {
+            "latitude": -2.7005526767067,
+            "longitude": -44.852296113968
+          },
+          {
+            "latitude": -2.7010135042152,
+            "longitude": -44.852221012115
+          },
+          {
+            "latitude": -2.7010563718815,
+            "longitude": -44.851706027985
+          },
+          {
+            "latitude": -2.7019458756161,
+            "longitude": -44.851748943329
+          },
+          {
+            "latitude": -2.702449570213,
+            "longitude": -44.851051568985
+          },
+          {
+            "latitude": -2.7025138716358,
+            "longitude": -44.850836992264
+          },
+          {
+            "latitude": -2.7026531913737,
+            "longitude": -44.850826263428
+          },
+          {
+            "latitude": -2.7027817941944,
+            "longitude": -44.850912094116
+          },
+          {
+            "latitude": -2.7031247349831,
+            "longitude": -44.851276874542
+          },
+          {
+            "latitude": -2.7032319039596,
+            "longitude": -44.851298332214
+          },
+          {
+            "latitude": -2.7044643837941,
+            "longitude": -44.851126670837
+          },
+          {
+            "latitude": -2.705235999362,
+            "longitude": -44.851362705231
+          },
+          {
+            "latitude": -2.7053216783052,
+            "longitude": -44.851384162903
+          },
+          {
+            "latitude": -2.7062754801363,
+            "longitude": -44.852060079575
+          },
+          {
+            "latitude": -2.707454335295,
+            "longitude": -44.853224158287
+          },
+          {
+            "latitude": -2.7073579020308,
+            "longitude": -44.856523275375
+          },
+          {
+            "latitude": -2.7056860706055,
+            "longitude": -44.85631942749
+          },
+          {
+            "latitude": -2.7031676022478,
+            "longitude": -44.857199192047
+          },
+          {
+            "latitude": -2.7013135778808,
+            "longitude": -44.855890274048
+          },
+          {
+            "latitude": -2.7010563719147,
+            "longitude": -44.855943918228
+          },
+          {
+            "latitude": -2.7008634487457,
+            "longitude": -44.854275584221
+          },
+          {
+            "latitude": -2.7010777870886,
+            "longitude": -44.854184389114
+          },
+          {
+            "latitude": -2.7012278239062,
+            "longitude": -44.853894710541
+          },
+          {
+            "latitude": -2.7010509947978,
+            "longitude": -44.853476285934
+          },
+          {
+            "latitude": -2.7006169596046,
+            "longitude": -44.852832555771
+          },
+          {
+            "latitude": -2.6993898716142,
+            "longitude": -44.852939844131
+          },
+          {
+            "latitude": -2.699598870378,
+            "longitude": -44.852156639099
+          }
+        ]
+      },
+      "areas": [
+        {
+          "idArea": "112",
+          "idTipoArea": "1",
+          "endereco": "Rodovia MA 014 - Bairro: Alegre",
+          "valor": "1",
+          "proprio": "0",
+          "doacao": "",
+          "documento": "",
+          "publicacao": "",
+          "observacao": "",
+          "arquivos": []
+        },
+        {
+          "idArea": "113",
+          "idTipoArea": "2",
+          "endereco": "Rodovia MA 014 - Bairro: Alegre, Município: São Bento",
+          "valor": "1",
+          "proprio": "0",
+          "doacao": "",
+          "documento": "",
+          "publicacao": "",
+          "observacao": "",
+          "arquivos": []
+        }
+      ],
+      "cursos": [
+        {
+          "idCurso": "46",
+          "idTipoCurso": "2",
+          "tipoCurso": "Distância",
+          "descricao": "Pedagogia Licenciatura"
+        },
+        {
+          "idCurso": "10",
+          "idTipoCurso": "2",
+          "tipoCurso": "Distância",
+          "descricao": "Administração Pública Bacharelado"
+        },
+        {
+          "idCurso": "52",
+          "idTipoCurso": "2",
+          "tipoCurso": "Distância",
+          "descricao": "Tecnologia em Alimentos"
+        }
+      ],
+      "gestores": [
+        {
+          "idGestor": "24",
+          "idTipoGestor": "1",
+          "tipoGestor": "Diretor de Centro",
+          "nome": "Francisca Neide Costa",
+          "telefones": [
+            "(98)9-9159-4215"
+          ],
+          "email": "francisca.cca.uema@gmail.com"
+        },
+        {
+          "idGestor": "54",
+          "idTipoGestor": "2",
+          "tipoGestor": "Diretor de Curso",
+          "nome": "Gerente: Adélia Maranhão Waquim",
+          "telefones": [],
+          "email": null
+        }
+      ]
+    },
+    {
+      "localidade": {
+        "idLocalidade": "197",
+        "idCentro": "CEN35",
+        "nome": "Curso de Arquitetura e Urbanismo",
+        "sigla": "CAU",
+        "marcador": "/img/markers/norte.png",
+        "latitude": -2.5320886207592,
+        "longitude": -44.305782616138,
+        "vertices": [
+          {
+            "latitude": -2.532218580884,
+            "longitude": -44.305943548679
+          },
+          {
+            "latitude": -2.5322051829342,
+            "longitude": -44.305605590343
+          },
+          {
+            "latitude": -2.5319586606344,
+            "longitude": -44.30561631918
+          },
+          {
+            "latitude": -2.5319720585867,
+            "longitude": -44.305959641933
+          },
+          {
+            "latitude": -2.532218580884,
+            "longitude": -44.305943548679
+          }
+        ]
+      },
+      "areas": [
+        {
+          "idArea": "95",
+          "idTipoArea": "2",
+          "endereco": "Rua da Estrela,  Nº 472 - Praia Grande - Centro Histórico CEP. 65010-200",
+          "valor": "3.69516",
+          "proprio": "0",
+          "doacao": "",
+          "documento": "",
+          "publicacao": "",
+          "observacao": "Escritura Pública de Doação para o Estado de 19/05/1999",
+          "arquivos": [
+            {
+              "idArquivo": "26",
+              "idTipoArquivo": "1",
+              "idArea": "95",
+              "descricao": "",
+              "path": "/areaFiles/e9337107b7a54b201b6b89b8fb907144.JPG"
+            },
+            {
+              "idArquivo": "36",
+              "idTipoArquivo": "1",
+              "idArea": "95",
+              "descricao": "",
+              "path": "/areaFiles/71e8de1725c043998e090a88fb4c9c14.jpg"
+            }
+          ]
+        },
+        {
+          "idArea": "109",
+          "idTipoArea": "1",
+          "endereco": "Rua da Estrela, Nº 472 - Praia Grande - Centro Histórico CEP. 65010-200",
+          "valor": "3.69516",
+          "proprio": "0",
+          "doacao": "",
+          "documento": "",
+          "publicacao": "",
+          "observacao": "",
+          "arquivos": []
+        }
+      ],
+      "cursos": [
+        {
+          "idCurso": "12",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "Arquitetura e Urbanismo Bacharelado"
+        }
+      ],
+      "gestores": [
+        {
+          "idGestor": "19",
+          "idTipoGestor": "2",
+          "tipoGestor": "Diretor de Curso",
+          "nome": "Marluce Wall de Carvalho Venancio",
+          "telefones": [
+            "32226162"
+          ],
+          "email": null
+        },
+        {
+          "idGestor": "21",
+          "idTipoGestor": "1",
+          "tipoGestor": "Diretor de Centro",
+          "nome": "Jorge de Jesus Passinho e Silva",
+          "telefones": [],
+          "email": null
+        }
+      ]
+    },
+    {
+      "localidade": {
+        "idLocalidade": "198",
+        "idCentro": "CEN36",
+        "nome": "Música",
+        "sigla": "MUS",
+        "marcador": "/img/markers/norte.png",
+        "latitude": -2.5318608555742,
+        "longitude": -44.30579200387,
+        "vertices": [
+          {
+            "latitude": -2.5319666994058,
+            "longitude": -44.305956959724
+          },
+          {
+            "latitude": -2.5317603709244,
+            "longitude": -44.305965006351
+          },
+          {
+            "latitude": -2.5317550117426,
+            "longitude": -44.305629730225
+          },
+          {
+            "latitude": -2.5319613402248,
+            "longitude": -44.305619001389
+          },
+          {
+            "latitude": -2.5319666994058,
+            "longitude": -44.305956959724
+          }
+        ]
+      },
+      "areas": [
+        {
+          "idArea": "98",
+          "idTipoArea": "2",
+          "endereco": "Rua da Estrela Nº 329, Praia Grande - Centro Histórico CEP. 65010-200",
+          "valor": "3.69516",
+          "proprio": "0",
+          "doacao": "",
+          "documento": "",
+          "publicacao": "",
+          "observacao": "",
+          "arquivos": [
+            {
+              "idArquivo": "25",
+              "idTipoArquivo": "1",
+              "idArea": "98",
+              "descricao": "",
+              "path": "/areaFiles/5736971fccd67ba2b2223f16b31daa85.JPG"
+            },
+            {
+              "idArquivo": "37",
+              "idTipoArquivo": "1",
+              "idArea": "98",
+              "descricao": "",
+              "path": "/areaFiles/8686396bb69c8836e44a955a890256a0.jpg"
+            }
+          ]
+        },
+        {
+          "idArea": "116",
+          "idTipoArea": "1",
+          "endereco": "Rua da Estrela 329, Praia Grande - Centro Histórico CEP. 65010-200",
+          "valor": "1",
+          "proprio": "0",
+          "doacao": "",
+          "documento": "",
+          "publicacao": "",
+          "observacao": "",
+          "arquivos": []
+        },
+        {
+          "idArea": "117",
+          "idTipoArea": "1",
+          "endereco": "Rua da Estrela 329, Praia Grande - Centro Histórico CEP. 65010-200",
+          "valor": "1",
+          "proprio": "0",
+          "doacao": "",
+          "documento": "",
+          "publicacao": "",
+          "observacao": "",
+          "arquivos": []
+        },
+        {
+          "idArea": "118",
+          "idTipoArea": "1",
+          "endereco": "Rua da Estrela Nº 329, Praia Grande - Centro Histórico CEP. 65010-200",
+          "valor": "1",
+          "proprio": "0",
+          "doacao": "",
+          "documento": "",
+          "publicacao": "",
+          "observacao": "",
+          "arquivos": []
+        }
+      ],
+      "cursos": [
+        {
+          "idCurso": "44",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "Música Licenciatura"
+        }
+      ],
+      "gestores": []
+    },
+    {
+      "localidade": {
+        "idLocalidade": "199",
+        "idCentro": "CEN36",
+        "nome": "História",
+        "sigla": "HIS",
+        "marcador": "/img/markers/norte.png",
+        "latitude": -2.530456749303,
+        "longitude": -44.305364191532,
+        "vertices": [
+          {
+            "latitude": -2.5305331177199,
+            "longitude": -44.305525124073
+          },
+          {
+            "latitude": -2.5303803808861,
+            "longitude": -44.305519759655
+          },
+          {
+            "latitude": -2.5303830604798,
+            "longitude": -44.305211305618
+          },
+          {
+            "latitude": -2.5305331177199,
+            "longitude": -44.305203258991
+          },
+          {
+            "latitude": -2.5305331177199,
+            "longitude": -44.305525124073
+          }
+        ]
+      },
+      "areas": [
+        {
+          "idArea": "96",
+          "idTipoArea": "2",
+          "endereco": "Rua da Estrela, número 309 – Centro",
+          "valor": "1",
+          "proprio": "0",
+          "doacao": "Secretaria de Estado do Planejamento, Orçamen",
+          "documento": "Contrato de Cessão de Uso",
+          "publicacao": "",
+          "observacao": "",
+          "arquivos": [
+            {
+              "idArquivo": "38",
+              "idTipoArquivo": "1",
+              "idArea": "96",
+              "descricao": "",
+              "path": "/areaFiles/afcd5d62ee25d31caf5b242ff3ad54a1.jpg"
+            }
+          ]
+        },
+        {
+          "idArea": "110",
+          "idTipoArea": "1",
+          "endereco": "Rua da Estrela, número 309 – Centro",
+          "valor": "0",
+          "proprio": "0",
+          "doacao": "Secretaria de Estado do Planejamento, Orçamen",
+          "documento": "Contrato de Cessão de Uso",
+          "publicacao": "",
+          "observacao": "",
+          "arquivos": []
+        }
+      ],
+      "cursos": [
+        {
+          "idCurso": "32",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "História Licenciatura"
+        },
+        {
+          "idCurso": "32",
+          "idTipoCurso": "1",
+          "tipoCurso": "Presencial",
+          "descricao": "História Licenciatura"
+        }
+      ],
+      "gestores": []
+    }
+  ]
+}
