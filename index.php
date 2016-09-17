@@ -32,14 +32,47 @@ try {
 
     $data = $body->data;
 
-    var_dump($createCypher($client, [
-        'codigo'    => $data[1]->localidade->idCentro,
-        'nome'      => $data[1]->localidade->nome,
-        'sigla'     => $data[1]->localidade->sigla,
-        'marcador'  => $data[1]->localidade->marcador,
-        'latitude'  => $data[1]->localidade->latitude,
-        'longitude' => $data[1]->localidade->longitude,
-    ], "uema", "CentrosUema")->getRecord());
+    foreach ($data as &$centro){
+        $createCypher($client, [
+            'id'        => $centro->localidade->idLocalidade,
+            'codigo'    => $centro->localidade->idCentro,
+            'nome'      => $centro->localidade->nome,
+            'sigla'     => $centro->localidade->sigla,
+            'marcador'  => $centro->localidade->marcador,
+            'latitude'  => $centro->localidade->latitude,
+            'longitude' => $centro->localidade->longitude,
+        ], "uema", "CentrosUema");
+
+        echo "Criando centro {$centro->localidade->nome} <br>";
+
+        foreach ($centro->localidade->vertices as &$vertice){
+            $createCypher($client, [
+                'idCentro'  => $centro->localidade->idLocalidade,
+                'latitude'  => $vertice->latitude,
+                'longitude' => $vertice->longitude,
+            ], "vertice", "LocalVertice");
+        }
+
+        $client->run("MATCH 
+                      (centro:CentrosUema), (vertices:LocalVertice)  
+                      WHERE 
+                      centro.id = '{$centro->localidade->idLocalidade}'
+                      AND 
+                      vertices.idCentro = '{$centro->localidade->idLocalidade}'
+                      CREATE 
+                      (centro)-[:VERTICES]->(vertices)");
+
+    }
+
+
+//    var_dump($createCypher($client, [
+//        'codigo'    => $data[1]->localidade->idCentro,
+//        'nome'      => $data[1]->localidade->nome,
+//        'sigla'     => $data[1]->localidade->sigla,
+//        'marcador'  => $data[1]->localidade->marcador,
+//        'latitude'  => $data[1]->localidade->latitude,
+//        'longitude' => $data[1]->localidade->longitude,
+//    ], "uema", "CentrosUema")->getRecord());
 
 } catch (Exception $e) {
     echo "Error: {$e->getMessage()}";
