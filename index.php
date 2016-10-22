@@ -1,155 +1,116 @@
 <?php
 
-require_once 'vendor/autoload.php';
+if(!file_exists('./vendor/autoload.php'))
+    die('Por favor, instale as dependencias do composer. $_: composer install');
+
+require_once './vendor/autoload.php';
+
+//Usar pelo http://localhost/neo4j/?de=Renascença&para=Cohab
 
 use GraphAware\Neo4j\Client\ClientBuilder;
-use GraphAware\Neo4j\Client\Client;
+use GraphAware\Neo4j\Client\Formatter\Type\Path;
 
 try {
-    //Função para criar nodo
-    $createCypher = function (Client $client, array $data, $nameObject, $nameClass) {
-        try {
-            return $client->run("CREATE ({$nameObject}:{$nameClass}) SET {$nameObject} += {{$nameObject}}", [$nameObject => $data]);
-        } catch (Exception $e) {
-            throw new Exception("Não foi possível cadastrar o objeto {$nameObject} no nó {$nameClass}. Error: {$e->getMessage()}");
-        }
-    };
+
+    $de   = isset($_GET['de'])   ? $_GET['de']    : false ;
+    $para = isset($_GET['para']) ? $_GET['para']  : false ;
+
+    if(!$de || !$para)
+        throw new Exception("Os parametros de requisições são inválidos! É necessário o parametro 'de' e 'para'");
+
+
+    $de   = !empty($de)   ? $de   : false ;
+    $para = !empty($para) ? $para : false ;
+
+    if(!$de || !$para)
+        throw new Exception("Os parametros de requisições estão vázios.");
+
+    $cypher = "MATCH (de:Bairro {nome: {de}}), 
+                     (para:Bairro {nome: {para}}), 
+                     caminhos = (de)-[:DISTANCIA*]->(para)
+               RETURN caminhos AS melhorCaminho, 
+                      reduce(km = 0, caminho in relationships(caminhos) | km + caminho.km) AS totalKm 
+               ORDER BY totalKm ASC
+               LIMIT 1";
+
+    $protocol = 'http';
+    $database = 'neo4j';
+    $password = '12qwaszx';
+    $host     = 'localhost';
+    $port     = '7474';
 
     $client = ClientBuilder::create()
         //Criar uma conexão com neo4j
-        ->addConnection('default', 'http://neo4j:12qwaszx@localhost:7474')// Example for HTTP connection configuration (port is optional)
+        ->addConnection('default', "{$protocol}://{$database}:{$password}@{$host}:{$port}")
         ->build();
 
-    //Requisição para obter os dados json
-    $response = \Httpful\Request::get("http://localhost/neo4j/dados.php")
-        ->send();
+    $result = $client->run($cypher, [
+        'de'   => $de,
+        'para' => $para,
+    ]);
 
-    //verificar se foi possível puxar os dados
-    if ($response->hasErrors())
-        throw new Exception("Não foi possível conectar o GPU");
+    if($result->size() == 0)
+        throw new Exception('Nenhum resultado foi encontrado para essa rota!');
 
-    $body = $response->body;
+    $dados = $result->firstRecord();
 
-    if (!isset($body->data) || !is_array($body->data))
-        throw new Exception("Nenhum dado foi retornado!");
+    if(!$dados->hasValue('melhorCaminho') || !$dados->hasValue('totalKm'))
+        throw new Exception('O melhor caminho e a quantidade de quilometros não foi retornado!');
 
-    $data = $body->data;
+    $melhorCaminho = $dados->get('melhorCaminho');
+    $totalKm       = $dados->get('totalKm');
 
-    foreach ($data as &$centro){
-        $createCypher($client, [
-            'id'        => $centro->localidade->idLocalidade,
-            'codigo'    => $centro->localidade->idCentro,
-            'nome'      => $centro->localidade->nome,
-            'sigla'     => $centro->localidade->sigla,
-            'marcador'  => $centro->localidade->marcador,
-            'latitude'  => $centro->localidade->latitude,
-            'longitude' => $centro->localidade->longitude,
-        ], "uema", "CentrosUema");
+    if(!$melhorCaminho instanceof Path)
+        throw new Exception('O melhor caminho não é uma instancia de Path!');
 
-        echo "Criando centro {$centro->localidade->nome} \n";
+    elseif(!$melhorCaminho->length())
+        throw new Exception('Nenhum relacionamento foi encontrado no melhor caminho!');
 
-        foreach ($centro->localidade->vertices as &$vertice){
-            $createCypher($client, [
-                'idCentro'  => $centro->localidade->idLocalidade,
-                'latitude'  => $vertice->latitude,
-                'longitude' => $vertice->longitude,
-            ], "vertice", "LocalVertice");
-        }
+    $nodes         = $melhorCaminho->nodes();
+    $relationships = $melhorCaminho->relationships();
 
-        $client->run("MATCH 
-                      (centro:CentrosUema), (vertices:LocalVertice)  
-                      WHERE 
-                      centro.id = '{$centro->localidade->idLocalidade}'
-                      AND 
-                      vertices.idCentro = '{$centro->localidade->idLocalidade}'
-                      CREATE 
-                      (centro)-[:VERTICES]->(vertices)");
+    $bairros       = [];
+    $caminhos      = [];
 
-        foreach ($centro->areas as &$area){
-            $createCypher($client, [
-                'idCentro'   => $centro->localidade->idLocalidade,
-                'idArea'     => $area->idArea,
-                'idTipoArea' => $area->idTipoArea,
-                'endereco'   => $area->endereco,
-                'valor'      => $area->valor,
-                'proprio'    => $area->proprio,
-                'doacao'     => $area->doacao,
-                'documento'  => $area->documento,
-                'publicacao' => $area->publicacao,
-                'observacao' => $area->observacao,
-            ], "area", "Areas");
+    foreach ($nodes as $node)
+        $bairros[(int) $node->identity()] = [
+            'id'     => (int) $node->identity(),
+            'bairro' => $node->get('nome'),
+        ];
 
-            foreach ($area->arquivos as &$arquivo){
-                $createCypher($client, [
-                    'idArea'        => $area->idArea,
-                    'idArquivo'     => $arquivo->idArquivo,
-                    'idTipoArquivo' => $arquivo->idTipoArquivo,
-                    'descricao'     => $arquivo->descricao,
-                    'path'          => $arquivo->path,
-                ], "arquivos", "Arquivos");
-            }
 
-            $client->run("MATCH 
-                      (area:Areas), (arquivos:Arquivos)  
-                      WHERE 
-                      area.idArea = '{$area->idArea}'
-                      AND 
-                      arquivos.idArea = '{$area->idArea}'
-                      CREATE 
-                      (area)-[:ARQUIVOS]->(arquivos)");
-        }
+    foreach ($relationships as $relationship)
+        $caminhos[(int) $relationship->identity()] = [
+            'id'           => (int) $relationship->identity(),
+            'distancia_km' => $relationship->get('km'),
+            'de'           => $bairros[$relationship->startNodeIdentity()],
+            'para'         => $bairros[$relationship->endNodeIdentity()],
+            'tipo'         => $relationship->type(),
+        ];
 
-        $client->run("MATCH 
-                      (centro:CentrosUema), (area:Areas)  
-                      WHERE 
-                      centro.id = '{$centro->localidade->idLocalidade}'
-                      AND 
-                      area.idCentro = '{$centro->localidade->idLocalidade}'
-                      CREATE 
-                      (centro)-[:AREAS]->(area)");
+    $estrutura     = [
+        'de'             => $de,
+        'para'           => $para,
+        'total_km'       => $totalKm,
+        'caminho'        => array_values($bairros),
+        'relacionamento' => array_values($caminhos),
+    ];
 
-        foreach ($centro->cursos as &$curso) {
-            $createCypher($client, [
-                'idCentro'    => $centro->localidade->idLocalidade,
-                'idCurso'     => $curso->idCurso,
-                'idTipoCurso' => $curso->idTipoCurso,
-                'tipoCurso'   => $curso->tipoCurso,
-                'descricao'   => $curso->descricao,
-            ], "curso", "Cursos");
-        }
-
-        $client->run("MATCH 
-                      (centro:CentrosUema), (curso:Cursos)  
-                      WHERE 
-                      centro.id = '{$centro->localidade->idLocalidade}'
-                      AND 
-                      curso.idCentro = '{$centro->localidade->idLocalidade}'
-                      CREATE 
-                      (centro)-[:CURSOS]->(curso)");
-
-        foreach ($centro->gestores as &$gestor) {
-            $createCypher($client, [
-                'idCentro'     => $centro->localidade->idLocalidade,
-                'idGestor'     => $gestor->idGestor,
-                'idTipoGestor' => $gestor->idTipoGestor,
-                'tipoGestor'   => $gestor->tipoGestor,
-                'nome'         => $gestor->nome,
-                'telefones'    => implode(', ', $gestor->telefones),
-                'email'        => $gestor->email,
-            ], "gestor", "Gestores");
-        }
-
-        $client->run("MATCH 
-                      (centro:CentrosUema), (gestor:Gestores)  
-                      WHERE 
-                      centro.id = '{$centro->localidade->idLocalidade}'
-                      AND 
-                      gestor.idCentro = '{$centro->localidade->idLocalidade}'
-                      CREATE 
-                      (centro)-[:GESTORES]->(gestor)");
-
-    }
+    $response = [
+        'meta' => [
+            'code' => 200
+        ],
+        'data' => $estrutura
+    ];
 
 } catch (Exception $e) {
-    echo "Error: {$e->getMessage()}";
+    $response = [
+        'meta' => [
+            'code'          => 400,
+            'error_message' => $e->getMessage()
+        ]
+    ];
 }
+
+header('Content-Type: application/json');
+echo json_encode($response);
