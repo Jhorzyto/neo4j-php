@@ -5,9 +5,8 @@ if(!file_exists('./vendor/autoload.php'))
 
 require_once './vendor/autoload.php';
 
-//Usar pelo http://localhost/neo4j/?de=Renascença&para=Cohab
+//Usar pelo http://localhost/neo4j/melhor_caminho?de=Renascença&para=Cohab
 
-use GraphAware\Neo4j\Client\ClientBuilder;
 use GraphAware\Neo4j\Client\Formatter\Type\Path;
 
 try {
@@ -16,37 +15,29 @@ try {
     $para = isset($_GET['para']) ? $_GET['para']  : false ;
 
     if(!$de || !$para)
-        throw new Exception("Os parametros de requisições são inválidos! É necessário o parametro 'de' e 'para'");
+        throw new Exception("Os parametros de requisições são inválidos! É necessário o parametro 'de' e 'para'.");
 
 
     $de   = !empty($de)   ? $de   : false ;
     $para = !empty($para) ? $para : false ;
 
-    if(!$de || !$para)
-        throw new Exception("Os parametros de requisições estão vázios.");
+    if(!$de || !$para || !is_numeric($de) || !is_numeric($para))
+        throw new Exception("Os parametros de requisições estão vázios ou não são números.");
 
-    $cypher = "MATCH (de:Bairro {nome: {de}}), 
-                     (para:Bairro {nome: {para}}), 
+    $cypher = "MATCH (de:Bairro), 
+                     (para:Bairro), 
                      caminhos = (de)-[:DISTANCIA*]->(para)
+               WHERE ID(de) = {de} AND ID(para) = {para}
                RETURN caminhos AS melhorCaminho, 
                       reduce(km = 0, caminho in relationships(caminhos) | km + caminho.km) AS totalKm 
                ORDER BY totalKm ASC
                LIMIT 1";
 
-    $protocol = 'http';
-    $database = 'neo4j';
-    $password = '12qwaszx';
-    $host     = 'localhost';
-    $port     = '7474';
-
-    $client = ClientBuilder::create()
-        //Criar uma conexão com neo4j
-        ->addConnection('default', "{$protocol}://{$database}:{$password}@{$host}:{$port}")
-        ->build();
+    require_once './conexao.php';
 
     $result = $client->run($cypher, [
-        'de'   => $de,
-        'para' => $para,
+        'de'   => (int) $de,
+        'para' => (int) $para,
     ]);
 
     if($result->size() == 0)
@@ -89,8 +80,8 @@ try {
         ];
 
     $estrutura     = [
-        'de'             => $de,
-        'para'           => $para,
+        'de'             => $bairros[$de],
+        'para'           => $bairros[$para],
         'total_km'       => $totalKm,
         'caminho'        => array_values($bairros),
         'relacionamento' => array_values($caminhos),
@@ -111,6 +102,6 @@ try {
         ]
     ];
 }
-
+header('Access-Control-Allow-Origin: *');
 header('Content-Type: application/json');
 echo json_encode($response);
