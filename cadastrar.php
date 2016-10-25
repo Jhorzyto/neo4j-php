@@ -19,8 +19,7 @@ try {
     if(!$bairro)
         throw new Exception("Os parametros de requisições estão vázios.");
 
-    $cypher = "CREATE (bairro:Bairro),
-               (bairro)-[:DISTANCIA {km : 0}]->(bairro)
+    $cypher = "CREATE (bairro:Bairro)
                SET bairro += {bairro}
                RETURN bairro";
 
